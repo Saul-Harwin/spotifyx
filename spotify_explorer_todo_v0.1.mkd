@@ -1,0 +1,130 @@
+
+🎧 Spotify Explorer CLI v0.1 — Incremental To-Do List
+
+---
+
+## 🧱 Phase 1 – Setup & Environment
+
+**Goal:** Get your dev environment ready and confirm Spotify API access.
+
+- [ ] Create project folder `spotify-explorer/`
+- [ ] Create subfolders: `core/`, `cli/`, `data/`
+- [ ] Create files: `core/__init__.py`, `cli/__init__.py`
+- [ ] Create `requirements.txt` with dependencies:
+  - spotipy
+  - typer
+  - rich
+  - pandas
+- [ ] Create `README.md`
+- [ ] Set up a Python virtual environment
+- [ ] Install dependencies with `pip install -r requirements.txt`
+- [ ] Initialize Git repo (optional but recommended)
+- [ ] Create `.env` file with Spotify credentials
+
+---
+
+## 🔑 Phase 2 – Spotify Developer App Setup
+
+**Goal:** Enable Spotify API authentication.
+
+- [ ] Go to https://developer.spotify.com/dashboard
+- [ ] Create new app (name: “Spotify Explorer CLI”)
+- [ ] Set redirect URI: `http://localhost:8888/callback`
+- [ ] Copy Client ID & Secret
+- [ ] Add to environment variables:
+  - SPOTIPY_CLIENT_ID
+  - SPOTIPY_CLIENT_SECRET
+  - SPOTIPY_REDIRECT_URI
+- [ ] Test a Spotipy auth snippet to ensure it opens login
+
+---
+
+## 🧠 Phase 3 – Core Logic: Fetching Data
+
+**Goal:** Fetch liked songs and features.
+
+- [ ] Create `core/spotify_client.py`
+- [ ] Implement `get_spotify_client()` with `SpotifyOAuth`
+- [ ] Implement `fetch_liked_songs(limit=200)`
+- [ ] Loop over `/me/tracks` and gather metadata
+- [ ] Get audio features and artist genres
+- [ ] Save combined data to `data/liked_songs_cache.json`
+- [ ] Add “read from cache if exists” logic
+- [ ] Test with limit=20 and confirm JSON saves
+
+---
+
+## 🧩 Phase 4 – Filtering Logic
+
+**Goal:** Filter cached songs.
+
+- [ ] Create `core/filters.py`
+- [ ] Define `filter_songs(songs, genre=None, min_energy=0.0, max_energy=1.0)`
+- [ ] Filter by genre substring and energy range
+- [ ] Test manually with sample cache
+
+---
+
+## 💻 Phase 5 – CLI Interface
+
+**Goal:** Create a usable CLI.
+
+- [ ] Create `cli/main.py`
+- [ ] Add Typer commands (e.g., `explore`)
+- [ ] Integrate fetching and filtering
+- [ ] Use Rich for pretty output
+- [ ] Test with:
+  ```bash
+  python -m cli.main explore --genre pop --min-energy 0.6
+  ```
+
+---
+
+## ⚙️ Phase 6 – Caching & Quality Testing
+
+**Goal:** Ensure caching works smoothly.
+
+- [ ] Test first-time fetch vs cached load
+- [ ] Handle missing genres/features gracefully
+- [ ] Confirm re-fetch adds new songs
+- [ ] Verify no crashes on missing fields
+
+---
+
+## 🧪 Phase 7 – Polish & Usability
+
+**Goal:** Make it delightful to use.
+
+- [ ] Add Rich styling (colors, emojis)
+- [ ] Print helpful messages (e.g., “Using cache”)
+- [ ] Test filter combinations
+- [ ] Write usage examples in README
+- [ ] Commit final version
+
+---
+
+## 🚀 Phase 8 – Optional Enhancements
+
+**Goal:** Add small extras.
+
+- [ ] Add `--refresh` flag
+- [ ] Add more filters (tempo, valence)
+- [ ] Add `--sort` and `--limit` options
+- [ ] Add ASCII banner or emoji header
+- [ ] Add CLI alias via `setup.py`
+
+---
+
+## ✅ Completion Checklist
+
+- [ ] Auth works
+- [ ] Fetch + cache successful
+- [ ] Filtering works
+- [ ] CLI looks nice
+- [ ] Tested with ≥50 liked songs
+- [ ] README updated
+- [ ] Git commit complete
+
+---
+
+🕒 Estimated total time: 5–7 hours (one focused day)
