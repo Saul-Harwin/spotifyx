@@ -10,7 +10,7 @@ app = typer.Typer(help="Spotify Explorer CLI")
 console = Console()
 
 @app.command()
-def explore(
+def filter(
     release_date: str = typer.Option(None, "--release-date", help="Filter by release date (MM-YYYY)"),
     release_year: int = typer.Option(None, "--release-year", help="Filter by release year (YYYY)"),
     release_year_range: str = typer.Option(None, "--release-year-range", help="Filter by release year range (YYYY-YYYY)"),
@@ -58,7 +58,7 @@ def explore(
     min_loudness: float = typer.Option(None, "--min-loudness", help="Minimum loudness (dB)")
     ):
     
-    """Explore your cached liked songs with various filters.""" 
+    """Filter your cached liked songs with various filters.""" 
     songs = read_cached_songs()
     
     filtered = [
@@ -120,7 +120,8 @@ def test_auth():
 @app.command()
 def create_playlist(
     name: str = typer.Option("My Filtered Liked Songs", "--name", "-n", help="Name of the new playlist"),
-    description: str = typer.Option("A playlist created with Spotify Explorer CLI", "--description", "-d", help="Description of the new playlist")
+    description: str = typer.Option("A playlist created with spotifyx", "--description", "-d", help="Description of the new playlist"),
+    sort_by: str = typer.Option(None, "--sort_by", "-s", help="Attribute to sort songs by (e.g., 'tempo', 'energy')")
     ):
     
     """Create a new playlist in your Spotify account."""
@@ -130,6 +131,9 @@ def create_playlist(
     console.print(f"[green]Created playlist:[/green] {playlist.get('name')} (ID: {playlist.get('id')})")
     
     songs = read_cached_songs("songs_cache")
+    
+    songs = sort_songs(attribute=sort_by) if sort_by else songs
+    
     songs_ids = [s["id"] for s in songs]
         
     sp.playlist_add_items(playlist["id"], songs_ids, position=None)
@@ -162,13 +166,14 @@ def sort_songs(
         console.print(f"[yellow]{artist}[/yellow] — {name} | {attribute}: {attr_value}")
 
     cache_songs(sorted_songs, cache_file="songs_cache")
+    return sorted_songs
 
 @app.command()
 def songs_like_this(
     query_songs: str = typer.Option(None, "--songs", "-s", help="Comma-separated list of song names to base recommendations on or if left empty, uses cached songs"),
     candidate_pool: str = typer.Option(None, "--source", "-r", help="Sources for recommendation candidates: 'liked_songs', 'cache', or a comma-separated list of songs"),
     audio_weight: float = typer.Option(0.7, "--audio-weight", help="Weight for audio features in similarity calculation (0 to 1) - default 0.7"),
-    genre_weight: float = typer.Option(0.5, "--genre-weight", help="Weight for genre features in similarity calculation (0 to 1) - default 0.5"),
+    genre_weight: float = typer.Option(0.4, "--genre-weight", help="Weight for genre features in similarity calculation (0 to 1) - default 0.4"),
     similarity_threshold: float = typer.Option(0.7, "--similarity-threshold", "-t", help="Minimum similarity score (0 to 1) to consider a song similar - default 0.7")
     ):
     """Given a list of songs, return a list of songs similar to them based on audio features."""
@@ -193,7 +198,7 @@ def songs_like_this(
         candidate_pool = read_cached_songs()
     elif candidate_pool == "cache":
         candidate_pool = read_cached_songs("songs_cache")
-    elif candidate_pool.__contains__(","):
+    elif "," in candidate_pool:
         try:
             candidate_pool = [s.strip() for s in candidate_pool.split(",")]
         except Exception as e:
@@ -225,19 +230,30 @@ def songs_like_this(
         np.mean(query_songs_feature_vectors * audio_weight, axis=0)
     ])
     
-    print(find_song_by_name("Basket Case"))
-    print(query_songs_feature_vectors)
-    print(query_songs_final_vector)
-    
+    similarities = []
     similar_songs = []
     for i, candidate_vector in enumerate(candidate_pool_final_vectors):
-        similarities = 1 - cosine_distance(candidate_vector, query_songs_final_vector)
+        similarity = 1 - cosine_distance(candidate_vector, query_songs_final_vector)
 
-        if similarities >= similarity_threshold:
-            console.print(f"[green]Found similar song:[/green] {candidate_pool[i]['name']} with similarity {similarities}")
+
+        if similarity >= similarity_threshold:
+            similarities.append(similarity)
             similar_songs.append(candidate_pool[i])
 
+    # Zip songs + similarities
+    songs_with_scores = list(zip(similar_songs, similarities))
+
+    # Sort descending by similarity
+    songs_with_scores = natsorted(songs_with_scores, key=lambda x: x[1], reverse=True)
+
+    # Unpack back to separate lists if needed
+    similar_songs, similarities = zip(*songs_with_scores)
+    similar_songs = list(similar_songs)
+    similarities = list(similarities)
+
     console.print(f"[green]Total similar songs found: {len(similar_songs)}[/green]")
+    for i, song in enumerate(similar_songs):
+        console.print(f"[green](Found similar song)[/green] with similarity {similarities[i]:.2f}: [yellow]{song.get("artist")}[/yellow] — {song.get("name")}")
     cache_songs(similar_songs, cache_file="songs_cache")
 
 

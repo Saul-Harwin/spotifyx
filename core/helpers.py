@@ -16,7 +16,7 @@ def fetch_liked_songs(limit=100):
         console.print(f"[cyan]Fetching batch {batch_num}...[/cyan]")
         
         if batch_num % 5 == 0 and batch_num != 0:
-            console.print("[orange]Pausing for 20 seconds to avoid rate limits...[/orange]")
+            console.print("[orange]Pausing for 0.5 seconds to avoid rate limits...[/orange]")
             time.sleep(0.5)
             console.print("[cyan]Resuming...[/cyan]")
         
@@ -181,16 +181,18 @@ def is_release_year(item, type, value=None):
     if release_date is None:
         return False
 
-    release_date = release_date.split("-")
-
     if value is None:
         return True
 
-    if type == "release_year":
+    if "-" in release_date:
+        release_date = release_date.split("-")
         year = int(release_date[1])
+    else:    
+        year = int(release_date)
+
+    if type == "release_year":
         return year == value
     elif type == "release_year_range":
-        year = int(release_date[1])
         first = int(value.split("-")[0])
         last = int(value.split("-")[1])
         
@@ -210,6 +212,14 @@ def contains_value(item, key, value=None):
 
     if value is None:
         return True
+
+    if "," in value:
+        value_list = [v.strip() for v in value.split(",")]
+        for val in value_list:
+            val_lower = val.lower()
+            if any(val_lower in v.lower() for v in values):
+                return True
+        return False
 
     value_lower = value.lower()
     return any(value_lower in v.lower() for v in values)
