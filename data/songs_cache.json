@@ -1,668 +1,114 @@
 [
     {
-        "id": "7xRemq7GLu0Tbqe9OckG87",
-        "name": "The Man in Me",
-        "artist": "Bob Dylan",
-        "artist_id": "74ASZWbe4lXaubB36ztrGX",
-        "release_date": "1970-10-21",
+        "id": "3yIUusX4NApzRSAkxZFrJg",
+        "name": "My Poor Brain",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1997-05-20",
         "genres": [
-            "folk rock",
-            "folk",
-            "singer-songwriter",
-            "roots rock",
-            "country rock"
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2733dbc767bf5a06821a554a812",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2734bc9bcdbdc9ac34e37d8b6bb",
+        "audio_features": {
+            "popularity": 46,
+            "acousticness": 0.0375,
+            "danceability": 0.681,
+            "energy": 0.714,
+            "instrumentalness": 0.0,
+            "key": 1,
+            "liveness": 0.232,
+            "loudness": -4.617,
+            "mode": 0,
+            "speechiness": 0.0309,
+            "tempo": 129.976,
+            "valence": 0.554
+        }
+    },
+    {
+        "id": "4LGKzrdEeBwR9UHCGlDT0W",
+        "name": "I'll Stick Around",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1995-07-04",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b27352844939eaf38ec62110fcde",
+        "audio_features": {
+            "popularity": 59,
+            "acousticness": 0.0115,
+            "danceability": 0.375,
+            "energy": 0.794,
+            "instrumentalness": 0.0,
+            "key": 1,
+            "liveness": 0.242,
+            "loudness": -3.945,
+            "mode": 1,
+            "speechiness": 0.0505,
+            "tempo": 169.846,
+            "valence": 0.34
+        }
+    },
+    {
+        "id": "2wO8aOvN1ogLy1N8XT1WJE",
+        "name": "This Is a Call",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1995-07-04",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b27352844939eaf38ec62110fcde",
+        "audio_features": {
+            "popularity": 59,
+            "acousticness": 0.000261,
+            "danceability": 0.531,
+            "energy": 0.664,
+            "instrumentalness": 0.0,
+            "key": 2,
+            "liveness": 0.205,
+            "loudness": -4.428,
+            "mode": 1,
+            "speechiness": 0.0304,
+            "tempo": 135.3,
+            "valence": 0.215
+        }
+    },
+    {
+        "id": "2kN05N1AQQplsgFweFAqYb",
+        "name": "These Days",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2011-04-12",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c20e79cd249b5928e956730b",
         "audio_features": {
             "popularity": 63,
-            "acousticness": 0.669,
-            "danceability": 0.67,
-            "energy": 0.905,
-            "instrumentalness": 0.000227,
-            "key": 1,
-            "liveness": 0.349,
-            "loudness": -6.855,
-            "mode": 1,
-            "speechiness": 0.129,
-            "tempo": 104.965,
-            "valence": 0.563
-        }
-    },
-    {
-        "id": "3VSuWxZM6x6V3ig5nYtikL",
-        "name": "She Said She Said - Remastered 2009",
-        "artist": "The Beatles",
-        "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "release_date": "1966-08-05",
-        "genres": [
-            "classic rock",
-            "psychedelic rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27328b8b9b46428896e6491e97a",
-        "audio_features": {
-            "popularity": 55,
-            "acousticness": 0.103,
-            "danceability": 0.633,
-            "energy": 0.809,
-            "instrumentalness": 0.611,
-            "key": 1,
-            "liveness": 0.0726,
-            "loudness": -8.595,
-            "mode": 0,
-            "speechiness": 0.0282,
-            "tempo": 147.916,
-            "valence": 0.964
-        }
-    },
-    {
-        "id": "6Pq9MmkDQYZiiCDpxnvrf6",
-        "name": "I Am The Walrus - Remastered 2009",
-        "artist": "The Beatles",
-        "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "release_date": "1967-11-27",
-        "genres": [
-            "classic rock",
-            "psychedelic rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273692d9189b2bd75525893f0c1",
-        "audio_features": {
-            "popularity": 60,
-            "acousticness": 0.123,
-            "danceability": 0.716,
-            "energy": 0.917,
-            "instrumentalness": 0.396,
-            "key": 6,
-            "liveness": 0.0628,
-            "loudness": -5.091,
-            "mode": 1,
-            "speechiness": 0.0331,
-            "tempo": 124.032,
-            "valence": 0.751
-        }
-    },
-    {
-        "id": "1Dg4dFJr3HW7sbA7vPejre",
-        "name": "Eight Days A Week - Remastered 2009",
-        "artist": "The Beatles",
-        "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "release_date": "1964-12-04",
-        "genres": [
-            "classic rock",
-            "psychedelic rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27355612ece447bec5d62c68375",
-        "audio_features": {
-            "popularity": 62,
-            "acousticness": 0.21,
-            "danceability": 0.746,
-            "energy": 0.862,
-            "instrumentalness": 0.0349,
-            "key": 8,
-            "liveness": 0.225,
-            "loudness": -6.11,
-            "mode": 1,
-            "speechiness": 0.0776,
-            "tempo": 122.012,
-            "valence": 0.605
-        }
-    },
-    {
-        "id": "3xXBsjrbG1xQIm1xv1cKOt",
-        "name": "One More Light",
-        "artist": "Linkin Park",
-        "artist_id": "6XyY86QOPPrYVGvF9ch6wz",
-        "release_date": "2017-05-19",
-        "genres": [
-            "nu metal",
-            "rap metal",
-            "rock",
-            "alternative metal"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273145e1cf12538f5666511237d",
-        "audio_features": {
-            "popularity": 78,
-            "acousticness": 0.0623,
-            "danceability": 0.603,
-            "energy": 0.83,
-            "instrumentalness": 5.18e-05,
-            "key": 7,
-            "liveness": 0.11,
-            "loudness": -7.195,
-            "mode": 1,
-            "speechiness": 0.0795,
-            "tempo": 132.117,
-            "valence": 0.217
-        }
-    },
-    {
-        "id": "14XWXWv5FoCbFzLksawpEe",
-        "name": "Riders on the Storm",
-        "artist": "The Doors",
-        "artist_id": "22WZ7M8sxp5THdruNY3gXt",
-        "release_date": "1971-04-19",
-        "genres": [
-            "psychedelic rock",
-            "classic rock",
-            "acid rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2733992c7ab57975935b29fa22b",
-        "audio_features": {
-            "popularity": 73,
-            "acousticness": 0.000121,
-            "danceability": 0.632,
-            "energy": 0.931,
-            "instrumentalness": 0.692,
-            "key": 9,
-            "liveness": 0.254,
-            "loudness": -2.508,
-            "mode": 0,
-            "speechiness": 0.0336,
-            "tempo": 114.982,
-            "valence": 0.447
-        }
-    },
-    {
-        "id": "2oaK4JLVnmRGIO9ytBE1bt",
-        "name": "Dark Necessities",
-        "artist": "Red Hot Chili Peppers",
-        "artist_id": "0L8ExT028jH3ddEcZwqJJ5",
-        "release_date": "2016-06-17",
-        "genres": [
-            "funk rock",
-            "alternative rock",
-            "rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27358406b3f1ac3ceaff7a64fef",
-        "audio_features": {
-            "popularity": 77,
-            "acousticness": 0.00362,
-            "danceability": 0.764,
-            "energy": 0.816,
-            "instrumentalness": 0.0,
-            "key": 9,
-            "liveness": 0.136,
-            "loudness": -5.551,
-            "mode": 1,
-            "speechiness": 0.0338,
-            "tempo": 120.456,
-            "valence": 0.894
-        }
-    },
-    {
-        "id": "4fPBB44eDH71YohayI4eKV",
-        "name": "You Only Live Once",
-        "artist": "The Strokes",
-        "artist_id": "0epOFNiUfyON9EYx7Tpr6V",
-        "release_date": "2006-01-03",
-        "genres": [
-            "garage rock",
-            "alternative rock",
-            "indie rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736898a982ff3c6049ba52586c",
-        "audio_features": {
-            "popularity": 70,
-            "acousticness": 0.0835,
-            "danceability": 0.628,
-            "energy": 0.84,
-            "instrumentalness": 0.000476,
-            "key": 5,
-            "liveness": 0.109,
-            "loudness": -5.685,
-            "mode": 1,
-            "speechiness": 0.0288,
-            "tempo": 113.667,
-            "valence": 0.626
-        }
-    },
-    {
-        "id": "77xZFu9TwwYnX7JNWfbavn",
-        "name": "Matilda",
-        "artist": "alt-J",
-        "artist_id": "3XHO7cRUPCLOr6jwp8vsx5",
-        "release_date": "2012-05-28",
-        "genres": [
-            "indie",
-            "indie rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2731e1ca90cd8fdbb0ac890a926",
-        "audio_features": {
-            "popularity": 60,
-            "acousticness": 0.000645,
-            "danceability": 0.615,
-            "energy": 0.859,
-            "instrumentalness": 0.00201,
-            "key": 2,
-            "liveness": 0.307,
-            "loudness": -5.785,
-            "mode": 1,
-            "speechiness": 0.0395,
-            "tempo": 133.962,
-            "valence": 0.691
-        }
-    },
-    {
-        "id": "7gWE3j4HZmrXQiGkQxrRt0",
-        "name": "Losing My Religion - Live / Acoustic",
-        "artist": "R.E.M.",
-        "artist_id": "4KWTAlx2RvbpseOGMEmROg",
-        "release_date": "2020-10-02",
-        "genres": [
-            "jangle pop",
-            "alternative rock",
-            "rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2734cd3ea41cc91a8647386a63a",
-        "audio_features": {
-            "popularity": 43,
-            "acousticness": 0.0462,
-            "danceability": 0.674,
-            "energy": 0.865,
-            "instrumentalness": 0.0,
-            "key": 6,
-            "liveness": 0.381,
-            "loudness": -6.167,
-            "mode": 1,
-            "speechiness": 0.0412,
-            "tempo": 131.975,
-            "valence": 0.694
-        }
-    },
-    {
-        "id": "7Js4OF5MUb2bqJe09g4uQE",
-        "name": "Oh! You Pretty Things - 2015 Remaster",
-        "artist": "David Bowie",
-        "artist_id": "0oSGxfWSnnOXhD2fKuz2Gy",
-        "release_date": "1971-12-17",
-        "genres": [
-            "glam rock",
-            "art rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e464904cc3fed2b40fc55120",
-        "audio_features": {
-            "popularity": 58,
-            "acousticness": 0.0013,
-            "danceability": 0.619,
-            "energy": 0.975,
-            "instrumentalness": 0.0172,
-            "key": 10,
-            "liveness": 0.147,
-            "loudness": -5.642,
-            "mode": 1,
-            "speechiness": 0.0614,
-            "tempo": 144.945,
-            "valence": 0.142
-        }
-    },
-    {
-        "id": "2AKOOhml62GZNFWDN7VqzT",
-        "name": "Killer Queen - Remastered 2011",
-        "artist": "Queen",
-        "artist_id": "1dfeR4HaWDbWqFHLkxsg1d",
-        "release_date": "1974-11-08",
-        "genres": [
-            "classic rock",
-            "rock",
-            "glam rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27322fcc5e24b98c4acae781c52",
-        "audio_features": {
-            "popularity": 48,
-            "acousticness": 0.059,
-            "danceability": 0.712,
-            "energy": 0.825,
-            "instrumentalness": 0.0,
-            "key": 3,
-            "liveness": 0.142,
-            "loudness": -2.668,
-            "mode": 0,
-            "speechiness": 0.0465,
-            "tempo": 125.918,
-            "valence": 0.335
-        }
-    },
-    {
-        "id": "3KiexfmhxHvG5IgAElmTkd",
-        "name": "I Saw Her Standing There - Remastered 2009",
-        "artist": "The Beatles",
-        "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "release_date": "1963-03-22",
-        "genres": [
-            "classic rock",
-            "psychedelic rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273dbeec63ad914c973e75c24df",
-        "audio_features": {
-            "popularity": 66,
-            "acousticness": 0.0722,
-            "danceability": 0.893,
-            "energy": 0.823,
-            "instrumentalness": 0.0,
-            "key": 5,
-            "liveness": 0.0515,
-            "loudness": -3.708,
-            "mode": 0,
-            "speechiness": 0.122,
-            "tempo": 128.011,
-            "valence": 0.901
-        }
-    },
-    {
-        "id": "26THbowkRatoePMTtjxEcR",
-        "name": "Dancing in the Moonlight (It's Caught Me in Its Spotlight) (Recorded at Spotify Studios NYC)",
-        "artist": "alt-J",
-        "artist_id": "3XHO7cRUPCLOr6jwp8vsx5",
-        "release_date": "2017-06-21",
-        "genres": [
-            "indie",
-            "indie rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27373b8ad499637cf060b712d88",
-        "audio_features": {
-            "popularity": 47,
-            "acousticness": 0.166,
-            "danceability": 0.637,
-            "energy": 0.905,
-            "instrumentalness": 0.206,
-            "key": 10,
-            "liveness": 0.0997,
-            "loudness": -9.34,
-            "mode": 0,
-            "speechiness": 0.0305,
-            "tempo": 151.821,
-            "valence": 0.861
-        }
-    },
-    {
-        "id": "0u6JFVn0KHHlidZxNL9gVE",
-        "name": "La Grange (2005 Remaster)",
-        "artist": "ZZ Top",
-        "artist_id": "2AM4ilv6UzW0uMRuqKtDgN",
-        "release_date": "1973-07-26",
-        "genres": [
-            "southern rock",
-            "classic rock",
-            "blues rock",
-            "rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273db9c5945ce3a3f873695d18a",
-        "audio_features": {
-            "popularity": 78,
-            "acousticness": 0.23,
-            "danceability": 0.68,
-            "energy": 0.844,
-            "instrumentalness": 0.0,
-            "key": 6,
-            "liveness": 0.0305,
-            "loudness": -1.729,
-            "mode": 1,
-            "speechiness": 0.299,
-            "tempo": 172.302,
-            "valence": 0.895
-        }
-    },
-    {
-        "id": "2LawezPeJhN4AWuSB0GtAU",
-        "name": "Have You Ever Seen The Rain",
-        "artist": "Creedence Clearwater Revival",
-        "artist_id": "3IYUhFvPQItj6xySrBmZkd",
-        "release_date": "1970-12-07",
-        "genres": [
-            "classic rock",
-            "southern rock",
-            "country rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27351f311c2fb06ad2789e3ff91",
-        "audio_features": {
-            "popularity": 86,
-            "acousticness": 0.449,
-            "danceability": 0.697,
-            "energy": 0.874,
-            "instrumentalness": 0.0144,
-            "key": 3,
-            "liveness": 0.0825,
-            "loudness": -4.473,
-            "mode": 1,
-            "speechiness": 0.0496,
-            "tempo": 101.987,
-            "valence": 0.81
-        }
-    },
-    {
-        "id": "3TETmhGNWOcquUTtcr6RIR",
-        "name": "The House of the Rising Sun",
-        "artist": "The Animals",
-        "artist_id": "3ICflSq6ZgYAIrm2CTkfVP",
-        "release_date": "2019-02-01",
-        "genres": [
-            "classic rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273177c39d848987d806b51c2a3",
-        "audio_features": {
-            "popularity": 58,
-            "acousticness": 0.214,
-            "danceability": 0.768,
-            "energy": 0.852,
-            "instrumentalness": 7.36e-05,
+            "acousticness": 1.83e-05,
+            "danceability": 0.401,
+            "energy": 0.953,
+            "instrumentalness": 2.56e-05,
             "key": 4,
-            "liveness": 0.0723,
-            "loudness": -6.215,
+            "liveness": 0.149,
+            "loudness": -4.276,
             "mode": 1,
-            "speechiness": 0.038,
-            "tempo": 128.373,
-            "valence": 0.867
-        }
-    },
-    {
-        "id": "3hNUYt4dMM9RhcWmty8oKF",
-        "name": "Day Tripper - Remastered 2009",
-        "artist": "The Beatles",
-        "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "release_date": "1973-04-01",
-        "genres": [
-            "classic rock",
-            "psychedelic rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2735ef4660298ae29ee18799fc2",
-        "audio_features": {
-            "popularity": 63,
-            "acousticness": 0.00234,
-            "danceability": 0.73,
-            "energy": 0.849,
-            "instrumentalness": 2.57e-05,
-            "key": 1,
-            "liveness": 0.312,
-            "loudness": -5.281,
-            "mode": 0,
-            "speechiness": 0.0299,
-            "tempo": 117.308,
-            "valence": 0.887
-        }
-    },
-    {
-        "id": "5Qe7NHxeLAn8KoLTNLSdwe",
-        "name": "I Want To Hold Your Hand - Remastered 2009",
-        "artist": "The Beatles",
-        "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "release_date": "1973-04-01",
-        "genres": [
-            "classic rock",
-            "psychedelic rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2735ef4660298ae29ee18799fc2",
-        "audio_features": {
-            "popularity": 68,
-            "acousticness": 0.0403,
-            "danceability": 0.622,
-            "energy": 0.884,
-            "instrumentalness": 0.371,
-            "key": 1,
-            "liveness": 0.282,
-            "loudness": -6.715,
-            "mode": 1,
-            "speechiness": 0.0467,
-            "tempo": 109.722,
-            "valence": 0.561
-        }
-    },
-    {
-        "id": "260Ub1Yuj4CobdISTOBvM9",
-        "name": "Wet Dream",
-        "artist": "Wet Leg",
-        "artist_id": "2TwOrUcYnAlIiKmVQkkoSZ",
-        "release_date": "2022-04-08",
-        "genres": [
-            "indie rock",
-            "indie"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2731ce49e09e09c4f4f54533a1e",
-        "audio_features": {
-            "popularity": 68,
-            "acousticness": 0.0229,
-            "danceability": 0.673,
-            "energy": 0.95,
-            "instrumentalness": 0.0823,
-            "key": 11,
-            "liveness": 0.398,
-            "loudness": -5.149,
-            "mode": 1,
-            "speechiness": 0.0488,
-            "tempo": 150.019,
-            "valence": 0.563
-        }
-    },
-    {
-        "id": "2F79HavLHwJlfvvJOkkIQD",
-        "name": "The Cave",
-        "artist": "Mumford & Sons",
-        "artist_id": "3gd8FJtBJtkRxdfbTu19U2",
-        "release_date": "2009-01-01",
-        "genres": [
-            "folk",
-            "indie folk",
-            "folk rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2732b457397404b3890a6dc2e51",
-        "audio_features": {
-            "popularity": 64,
-            "acousticness": 0.198,
-            "danceability": 0.765,
-            "energy": 0.938,
-            "instrumentalness": 0.046,
-            "key": 2,
-            "liveness": 0.213,
-            "loudness": -6.798,
-            "mode": 1,
-            "speechiness": 0.922,
-            "tempo": 150.088,
-            "valence": 0.342
-        }
-    },
-    {
-        "id": "6wpGqhRvJGNNXwWlPmkMyO",
-        "name": "I Still Haven't Found What I'm Looking For",
-        "artist": "U2",
-        "artist_id": "51Blml2LZPmy7TTiAg47vQ",
-        "release_date": "1987-03-03",
-        "genres": [
-            "rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273b7bea3d01f04e6d0408d2afe",
-        "audio_features": {
-            "popularity": 79,
-            "acousticness": 0.207,
-            "danceability": 0.709,
-            "energy": 0.824,
-            "instrumentalness": 0.000307,
-            "key": 1,
-            "liveness": 0.0888,
-            "loudness": -8.824,
-            "mode": 1,
-            "speechiness": 0.0453,
-            "tempo": 118.818,
-            "valence": 0.867
-        }
-    },
-    {
-        "id": "4TOMI010Sd4ZAX4aZ5TS85",
-        "name": "Perfect Day",
-        "artist": "Lou Reed",
-        "artist_id": "42TFhl7WlMRXiNqzSrnzPL",
-        "release_date": "1972-12-01",
-        "genres": [
-            "glam rock",
-            "proto-punk",
-            "art rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273d55149748dca0e5a1f40778e",
-        "audio_features": {
-            "popularity": 67,
-            "acousticness": 0.101,
-            "danceability": 0.768,
-            "energy": 0.864,
-            "instrumentalness": 0.0,
-            "key": 11,
-            "liveness": 0.162,
-            "loudness": -6.149,
-            "mode": 1,
-            "speechiness": 0.0324,
-            "tempo": 110.009,
-            "valence": 0.891
-        }
-    },
-    {
-        "id": "74iQ3gahRTOGc19bYadBE3",
-        "name": "Thank You (Falettinme Be Mice Elf Agin) - Single Version",
-        "artist": "Sly & The Family Stone",
-        "artist_id": "5m8H6zSadhu1j9Yi04VLqD",
-        "release_date": "1970-11-21",
-        "genres": [
-            "funk",
-            "motown",
-            "classic soul",
-            "funk rock",
-            "soul"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273b08f59c7648a7a67130ca0ea",
-        "audio_features": {
-            "popularity": 54,
-            "acousticness": 0.00158,
-            "danceability": 0.693,
-            "energy": 0.835,
-            "instrumentalness": 0.0298,
-            "key": 9,
-            "liveness": 0.0745,
-            "loudness": -6.681,
-            "mode": 0,
-            "speechiness": 0.0286,
-            "tempo": 120.003,
-            "valence": 0.581
-        }
-    },
-    {
-        "id": "5xAZDlzqvI1wflhB4mzYoz",
-        "name": "Showdown",
-        "artist": "Electric Light Orchestra",
-        "artist_id": "7jefIIksOi1EazgRTfW2Pk",
-        "release_date": "1973-11-01",
-        "genres": [
-            "art rock",
-            "soft rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273ee61adb791adf3f8b4132ae3",
-        "audio_features": {
-            "popularity": 57,
-            "acousticness": 0.00244,
-            "danceability": 0.739,
-            "energy": 0.8,
-            "instrumentalness": 0.502,
-            "key": 11,
-            "liveness": 0.0657,
-            "loudness": -5.246,
-            "mode": 0,
-            "speechiness": 0.0315,
-            "tempo": 125.021,
-            "valence": 0.968
+            "speechiness": 0.0752,
+            "tempo": 174.217,
+            "valence": 0.555
         }
     },
     {
@@ -694,1059 +140,451 @@
         }
     },
     {
-        "id": "40VSbBSYbPN10vJYeZq4tm",
-        "name": "Marigold",
-        "artist": "Nirvana",
-        "artist_id": "6olE6TJLqED3rqDCT0FyPh",
-        "release_date": "1993-09-21",
+        "id": "44wXefe8WB9Fd6xwtmAwbR",
+        "name": "Monkey Wrench",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1997-05-20",
         "genres": [
-            "grunge",
-            "rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273aca059cebc1841277db22d1c",
-        "audio_features": {
-            "popularity": 62,
-            "acousticness": 0.0492,
-            "danceability": 0.668,
-            "energy": 0.921,
-            "instrumentalness": 0.00517,
-            "key": 7,
-            "liveness": 0.0877,
-            "loudness": -3.727,
-            "mode": 1,
-            "speechiness": 0.0439,
-            "tempo": 120.0,
-            "valence": 0.782
-        }
-    },
-    {
-        "id": "1Ic9pKxGSJGM0LKeqf6lGe",
-        "name": "All Apologies",
-        "artist": "Nirvana",
-        "artist_id": "6olE6TJLqED3rqDCT0FyPh",
-        "release_date": "1993-09-21",
-        "genres": [
-            "grunge",
-            "rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273c4f52ef8782f0e8ede4c1aaf",
-        "audio_features": {
-            "popularity": 75,
-            "acousticness": 0.25,
-            "danceability": 0.724,
-            "energy": 0.802,
-            "instrumentalness": 0.0016,
-            "key": 10,
-            "liveness": 0.342,
-            "loudness": -6.117,
-            "mode": 0,
-            "speechiness": 0.0337,
-            "tempo": 143.116,
-            "valence": 0.729
-        }
-    },
-    {
-        "id": "3u16Clmxz7dJpnQWXXynok",
-        "name": "Dance Little Liar",
-        "artist": "Arctic Monkeys",
-        "artist_id": "7Ln80lUS6He07XvHI8qqHH",
-        "release_date": "2009-08-20",
-        "genres": [
-            "indie",
-            "garage rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273f65d720a5d70dbb93e96d528",
-        "audio_features": {
-            "popularity": 59,
-            "acousticness": 0.0189,
-            "danceability": 0.832,
-            "energy": 0.818,
-            "instrumentalness": 0.207,
-            "key": 4,
-            "liveness": 0.0927,
-            "loudness": -1.641,
-            "mode": 1,
-            "speechiness": 0.12,
-            "tempo": 87.523,
-            "valence": 0.536
-        }
-    },
-    {
-        "id": "0ofHAoxe9vBkTCp2UQIavz",
-        "name": "Dreams - 2004 Remaster",
-        "artist": "Fleetwood Mac",
-        "artist_id": "08GQAI4eElDnROBrJRGE0X",
-        "release_date": "1977-02-04",
-        "genres": [
-            "classic rock",
-            "yacht rock",
-            "soft rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e52a59a28efa4773dd2bfe1b",
-        "audio_features": {
-            "popularity": 89,
-            "acousticness": 0.484,
-            "danceability": 0.637,
-            "energy": 0.864,
-            "instrumentalness": 0.0,
-            "key": 8,
-            "liveness": 0.222,
-            "loudness": -4.381,
-            "mode": 1,
-            "speechiness": 0.0468,
-            "tempo": 99.995,
-            "valence": 0.706
-        }
-    },
-    {
-        "id": "31AOj9sFz2gM0O3hMARRBx",
-        "name": "Losing My Religion",
-        "artist": "R.E.M.",
-        "artist_id": "4KWTAlx2RvbpseOGMEmROg",
-        "release_date": "1991-03-12",
-        "genres": [
-            "jangle pop",
-            "alternative rock",
-            "rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e2dd4e821bcc3f70dc0c8ffd",
-        "audio_features": {
-            "popularity": 86,
-            "acousticness": 0.179,
-            "danceability": 0.768,
-            "energy": 0.82,
-            "instrumentalness": 0.0,
-            "key": 7,
-            "liveness": 0.689,
-            "loudness": -4.63,
-            "mode": 0,
-            "speechiness": 0.0474,
-            "tempo": 129.965,
-            "valence": 0.625
-        }
-    },
-    {
-        "id": "0YJ9FWWHn9EfnN0lHwbzvV",
-        "name": "Jigsaw Falling Into Place",
-        "artist": "Radiohead",
-        "artist_id": "4Z8W4fKeB5YxbusRsdQVPb",
-        "release_date": "2007-12-28",
-        "genres": [
-            "art rock",
-            "alternative rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
-        "audio_features": {
-            "popularity": 79,
-            "acousticness": 0.0884,
-            "danceability": 0.682,
-            "energy": 0.9,
-            "instrumentalness": 0.063,
-            "key": 9,
-            "liveness": 0.0685,
-            "loudness": -5.028,
-            "mode": 1,
-            "speechiness": 0.0874,
-            "tempo": 100.721,
-            "valence": 0.937
-        }
-    },
-    {
-        "id": "0p5eZCY0R7uNCZS1YDtIYI",
-        "name": "Hey",
-        "artist": "Pixies",
-        "artist_id": "6zvul52xwTWzilBZl6BUbT",
-        "release_date": "1989-04-17",
-        "genres": [
-            "alternative rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2730ab3c2a306c614fae36ff1d6",
-        "audio_features": {
-            "popularity": 67,
-            "acousticness": 0.0848,
-            "danceability": 0.701,
-            "energy": 0.869,
-            "instrumentalness": 0.000778,
-            "key": 6,
-            "liveness": 0.287,
-            "loudness": -4.813,
-            "mode": 0,
-            "speechiness": 0.0503,
-            "tempo": 100.066,
-            "valence": 0.903
-        }
-    },
-    {
-        "id": "2hmHlBM0kPBm17Y7nVIW9f",
-        "name": "My Propeller",
-        "artist": "Arctic Monkeys",
-        "artist_id": "7Ln80lUS6He07XvHI8qqHH",
-        "release_date": "2009-08-20",
-        "genres": [
-            "indie",
-            "garage rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273f65d720a5d70dbb93e96d528",
-        "audio_features": {
-            "popularity": 62,
-            "acousticness": 0.0698,
-            "danceability": 0.66,
-            "energy": 0.881,
-            "instrumentalness": 3.19e-05,
-            "key": 10,
-            "liveness": 0.364,
-            "loudness": -6.226,
-            "mode": 0,
-            "speechiness": 0.0844,
-            "tempo": 120.022,
-            "valence": 0.583
-        }
-    },
-    {
-        "id": "2QfiRTz5Yc8DdShCxG1tB2",
-        "name": "Johnny B. Goode",
-        "artist": "Chuck Berry",
-        "artist_id": "293zczrfYafIItmnmM3coR",
-        "release_date": "1959-07-01",
-        "genres": [
-            "rockabilly",
-            "rock and roll"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273a496dc8c33ca6d10668b3157",
-        "audio_features": {
-            "popularity": 75,
-            "acousticness": 0.502,
-            "danceability": 0.765,
-            "energy": 0.913,
-            "instrumentalness": 0.0,
-            "key": 6,
-            "liveness": 0.275,
-            "loudness": -1.102,
-            "mode": 0,
-            "speechiness": 0.0431,
-            "tempo": 126.007,
-            "valence": 0.621
-        }
-    },
-    {
-        "id": "6BHnhhxjnAGoY25qEjckw8",
-        "name": "Voyage / Paralysis",
-        "artist": "Diagonal",
-        "artist_id": "3FIQfMsHKXUqGl6Nd3sIFX",
-        "release_date": "2012-11-05",
-        "genres": [
-            "progressive rock",
-            "space rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2735170262b0f31c4580c3890aa",
-        "audio_features": {
-            "popularity": 0,
-            "acousticness": 0.325,
-            "danceability": 0.612,
-            "energy": 0.873,
-            "instrumentalness": 0.847,
-            "key": 9,
-            "liveness": 0.147,
-            "loudness": -6.513,
-            "mode": 1,
-            "speechiness": 0.0335,
-            "tempo": 109.983,
-            "valence": 0.821
-        }
-    },
-    {
-        "id": "3D7cUXDEKLAFsoD10QRoiR",
-        "name": "Smokin' Love (with Collie Buddz)",
-        "artist": "Stick Figure",
-        "artist_id": "5SXEylV07TC57eanSxxg4R",
-        "release_date": "2015-11-13",
-        "genres": [
-            "reggae",
-            "reggae rock",
-            "roots reggae"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27328292b2539f0ed722e58aa63",
-        "audio_features": {
-            "popularity": 66,
-            "acousticness": 0.000727,
-            "danceability": 0.612,
-            "energy": 0.895,
-            "instrumentalness": 0.0,
-            "key": 4,
-            "liveness": 0.0378,
-            "loudness": -5.003,
-            "mode": 0,
-            "speechiness": 0.0462,
-            "tempo": 140.411,
-            "valence": 0.808
-        }
-    },
-    {
-        "id": "78lgmZwycJ3nzsdgmPPGNx",
-        "name": "Immigrant Song - Remaster",
-        "artist": "Led Zeppelin",
-        "artist_id": "36QJpDe2go2KgaRleHCDTp",
-        "release_date": "1970",
-        "genres": [
-            "classic rock",
             "rock",
-            "hard rock",
-            "rock and roll"
+            "post-grunge",
+            "alternative rock",
+            "grunge"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27390a50cfe99a4c19ff3cbfbdb",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2734bc9bcdbdc9ac34e37d8b6bb",
         "audio_features": {
-            "popularity": 78,
-            "acousticness": 0.000972,
-            "danceability": 0.707,
-            "energy": 0.924,
-            "instrumentalness": 0.00703,
-            "key": 7,
-            "liveness": 0.204,
-            "loudness": -2.842,
-            "mode": 1,
-            "speechiness": 0.031,
-            "tempo": 127.937,
-            "valence": 0.919
-        }
-    },
-    {
-        "id": "5jSz894ljfWE0IcHBSM39i",
-        "name": "Raspberry Beret",
-        "artist": "Prince",
-        "artist_id": "5a2EaR3hamoenG9rDuVn8j",
-        "release_date": "1985-04-22",
-        "genres": [
-            "funk",
-            "funk rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273214f0bd9dc1ed0c65ae81760",
-        "audio_features": {
-            "popularity": 65,
-            "acousticness": 0.144,
-            "danceability": 0.638,
-            "energy": 0.867,
-            "instrumentalness": 0.000733,
+            "popularity": 68,
+            "acousticness": 0.0127,
+            "danceability": 0.435,
+            "energy": 0.588,
+            "instrumentalness": 0.0,
             "key": 2,
-            "liveness": 0.0846,
-            "loudness": -6.469,
+            "liveness": 0.101,
+            "loudness": -6.968,
             "mode": 1,
-            "speechiness": 0.0331,
-            "tempo": 115.692,
-            "valence": 0.805
+            "speechiness": 0.0572,
+            "tempo": 129.962,
+            "valence": 0.101
         }
     },
     {
-        "id": "4ZoBC5MhSEzuknIgAkBaoT",
-        "name": "My Life",
-        "artist": "Billy Joel",
-        "artist_id": "6zFYqv1mOsgBRQbae3JJ9e",
-        "release_date": "1978-10-13",
+        "id": "3KsatAMRt1a7iryhWt5I8U",
+        "name": "Wheels",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2009-11-03",
         "genres": [
-            "soft rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2731d4675d5a0345bb93686e4b6",
-        "audio_features": {
-            "popularity": 78,
-            "acousticness": 0.0264,
-            "danceability": 0.621,
-            "energy": 0.8,
-            "instrumentalness": 1.53e-05,
-            "key": 4,
-            "liveness": 0.059,
-            "loudness": -7.284,
-            "mode": 0,
-            "speechiness": 0.0344,
-            "tempo": 149.908,
-            "valence": 0.968
-        }
-    },
-    {
-        "id": "6xdLJrVj4vIXwhuG8TMopk",
-        "name": "Crazy Little Thing Called Love - Remastered 2011",
-        "artist": "Queen",
-        "artist_id": "1dfeR4HaWDbWqFHLkxsg1d",
-        "release_date": "1980-06-27",
-        "genres": [
-            "classic rock",
             "rock",
-            "glam rock"
+            "post-grunge",
+            "alternative rock",
+            "grunge"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273056e90910cbaf5c5b892aeba",
-        "audio_features": {
-            "popularity": 77,
-            "acousticness": 0.165,
-            "danceability": 0.694,
-            "energy": 0.831,
-            "instrumentalness": 0.000892,
-            "key": 9,
-            "liveness": 0.25,
-            "loudness": -7.288,
-            "mode": 1,
-            "speechiness": 0.0301,
-            "tempo": 125.901,
-            "valence": 0.98
-        }
-    },
-    {
-        "id": "4u9f8hqstB7iITDJNzKhQx",
-        "name": "My Generation - Stereo Version",
-        "artist": "The Who",
-        "artist_id": "67ea9eGLXYMsO2eYQRui3w",
-        "release_date": "1965-12-03",
-        "genres": [
-            "classic rock",
-            "rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27334658b1827b64a1d4d5a5ca9",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273136d7250568820409f8fdd60",
         "audio_features": {
             "popularity": 61,
-            "acousticness": 0.00647,
-            "danceability": 0.695,
-            "energy": 0.818,
-            "instrumentalness": 4.87e-06,
-            "key": 5,
-            "liveness": 0.0219,
-            "loudness": -5.379,
-            "mode": 0,
-            "speechiness": 0.0334,
-            "tempo": 119.965,
-            "valence": 0.916
-        }
-    },
-    {
-        "id": "0pdp3VrR4WQaswf0GyT0Y0",
-        "name": "Dangerous Animals",
-        "artist": "Arctic Monkeys",
-        "artist_id": "7Ln80lUS6He07XvHI8qqHH",
-        "release_date": "2009-08-20",
-        "genres": [
-            "indie",
-            "garage rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273f65d720a5d70dbb93e96d528",
-        "audio_features": {
-            "popularity": 55,
-            "acousticness": 0.0389,
-            "danceability": 0.608,
-            "energy": 0.808,
-            "instrumentalness": 0.0,
-            "key": 0,
-            "liveness": 0.0634,
-            "loudness": -4.244,
-            "mode": 1,
-            "speechiness": 0.0305,
-            "tempo": 96.455,
-            "valence": 0.778
-        }
-    },
-    {
-        "id": "3MjrueDQKVr6xDDseZwhEd",
-        "name": "Figure It Out",
-        "artist": "Royal Blood",
-        "artist_id": "2S5hlvw4CMtMGswFtfdK15",
-        "release_date": "2014-08-18",
-        "genres": [
-            "garage rock",
-            "rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2738c23906cd30a0564bcebb5e5",
-        "audio_features": {
-            "popularity": 65,
-            "acousticness": 0.141,
-            "danceability": 0.63,
-            "energy": 0.942,
-            "instrumentalness": 2.12e-06,
-            "key": 4,
-            "liveness": 0.0958,
-            "loudness": -5.186,
-            "mode": 1,
-            "speechiness": 0.0869,
-            "tempo": 136.155,
-            "valence": 0.753
-        }
-    },
-    {
-        "id": "6Soku1wiB6mfcQp2s2W6a6",
-        "name": "20th Century Boy",
-        "artist": "T. Rex",
-        "artist_id": "3dBVyJ7JuOMt4GE9607Qin",
-        "release_date": "1973-03-16",
-        "genres": [
-            "glam rock",
-            "proto-punk"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27368c6250645217ac10856629c",
-        "audio_features": {
-            "popularity": 45,
-            "acousticness": 0.00362,
-            "danceability": 0.764,
-            "energy": 0.816,
-            "instrumentalness": 0.0,
-            "key": 9,
-            "liveness": 0.136,
-            "loudness": -5.551,
-            "mode": 1,
-            "speechiness": 0.0338,
-            "tempo": 120.456,
-            "valence": 0.894
-        }
-    },
-    {
-        "id": "57Xjny5yNzAcsxnusKmAfA",
-        "name": "Reptilia",
-        "artist": "The Strokes",
-        "artist_id": "0epOFNiUfyON9EYx7Tpr6V",
-        "release_date": "2003-10-28",
-        "genres": [
-            "garage rock",
-            "alternative rock",
-            "indie rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2730f35726025e0f025da4c688f",
-        "audio_features": {
-            "popularity": 76,
-            "acousticness": 0.0234,
-            "danceability": 0.719,
-            "energy": 0.801,
-            "instrumentalness": 0.000125,
-            "key": 11,
-            "liveness": 0.178,
-            "loudness": -5.08,
-            "mode": 0,
-            "speechiness": 0.049,
-            "tempo": 120.013,
-            "valence": 0.685
-        }
-    },
-    {
-        "id": "3dOAXUx7I1qnzWzxdnsyB8",
-        "name": "Lonely Boy",
-        "artist": "The Black Keys",
-        "artist_id": "7mnBLXK823vNxN3UWB7Gfz",
-        "release_date": "2011-10-26",
-        "genres": [
-            "blues rock",
-            "garage rock",
-            "modern blues",
-            "rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273072a173e9323f3bdf1d254d6",
-        "audio_features": {
-            "popularity": 50,
-            "acousticness": 0.229,
-            "danceability": 0.658,
-            "energy": 0.814,
-            "instrumentalness": 0.00653,
-            "key": 0,
-            "liveness": 0.216,
-            "loudness": -4.631,
-            "mode": 1,
-            "speechiness": 0.0559,
-            "tempo": 108.018,
-            "valence": 0.691
-        }
-    },
-    {
-        "id": "10nyNJ6zNy2YVYLrcwLccB",
-        "name": "No Surprises",
-        "artist": "Radiohead",
-        "artist_id": "4Z8W4fKeB5YxbusRsdQVPb",
-        "release_date": "1997-05-28",
-        "genres": [
-            "art rock",
-            "alternative rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
-        "audio_features": {
-            "popularity": 87,
-            "acousticness": 0.000499,
-            "danceability": 0.668,
-            "energy": 0.886,
-            "instrumentalness": 5.78e-05,
-            "key": 10,
-            "liveness": 0.141,
-            "loudness": -4.751,
-            "mode": 0,
-            "speechiness": 0.0461,
-            "tempo": 128.077,
-            "valence": 0.397
-        }
-    },
-    {
-        "id": "3KANrKOFYyAxfjQJHkgBdb",
-        "name": "Smile Like You Mean It",
-        "artist": "The Killers",
-        "artist_id": "0C0XlULifJtAgn6ZNCW2eu",
-        "release_date": "2004",
-        "genres": [
-            "alternative rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273ccdddd46119a4ff53eaf1f5d",
-        "audio_features": {
-            "popularity": 69,
-            "acousticness": 0.00877,
-            "danceability": 0.656,
-            "energy": 0.833,
-            "instrumentalness": 0.0126,
-            "key": 1,
-            "liveness": 0.328,
-            "loudness": -5.13,
-            "mode": 1,
-            "speechiness": 0.0304,
-            "tempo": 134.007,
-            "valence": 0.71
-        }
-    },
-    {
-        "id": "73M2Vb5MfZh8iGKudkMtlw",
-        "name": "Always Like This",
-        "artist": "Bombay Bicycle Club",
-        "artist_id": "3pTE9iaJTkWns3mxpNQlJV",
-        "release_date": "2009-01-01",
-        "genres": [
-            "indie rock",
-            "indie"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273bb076ef98d5f02467a3be611",
-        "audio_features": {
-            "popularity": 57,
-            "acousticness": 0.00719,
-            "danceability": 0.654,
-            "energy": 0.81,
-            "instrumentalness": 0.00251,
-            "key": 4,
-            "liveness": 0.165,
-            "loudness": -6.26,
-            "mode": 0,
-            "speechiness": 0.0288,
-            "tempo": 114.622,
-            "valence": 0.661
-        }
-    },
-    {
-        "id": "64a5XZCVDWwvC7gwPPCsH6",
-        "name": "Still Take You Home",
-        "artist": "Arctic Monkeys",
-        "artist_id": "7Ln80lUS6He07XvHI8qqHH",
-        "release_date": "2006-01-29",
-        "genres": [
-            "indie",
-            "garage rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736b3fa88bdd4af566fbbf2bbf",
-        "audio_features": {
-            "popularity": 57,
-            "acousticness": 0.0709,
-            "danceability": 0.763,
-            "energy": 0.803,
-            "instrumentalness": 0.285,
-            "key": 1,
-            "liveness": 0.348,
-            "loudness": -3.713,
-            "mode": 1,
-            "speechiness": 0.0351,
-            "tempo": 103.04,
-            "valence": 0.561
-        }
-    },
-    {
-        "id": "2MLHyLy5z5l5YRp7momlgw",
-        "name": "Island In The Sun",
-        "artist": "Weezer",
-        "artist_id": "3jOstUTkEu2JkjvRdBA5Gu",
-        "release_date": "2001-05-15",
-        "genres": [
-            "alternative rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2731e0dc5baaabda304b0ad1815",
-        "audio_features": {
-            "popularity": 81,
-            "acousticness": 0.044,
-            "danceability": 0.806,
-            "energy": 0.872,
-            "instrumentalness": 0.0,
-            "key": 8,
-            "liveness": 0.0872,
-            "loudness": -7.013,
-            "mode": 0,
-            "speechiness": 0.0533,
-            "tempo": 113.023,
-            "valence": 0.838
-        }
-    },
-    {
-        "id": "3mqRLlD9j92BBv1ueFhJ1l",
-        "name": "Parklife",
-        "artist": "Blur",
-        "artist_id": "7MhMgCo0Bl0Kukl93PZbYS",
-        "release_date": "2000-10-23",
-        "genres": [
-            "britpop",
-            "madchester",
-            "alternative rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27334cbf7013afccc7df67fa43f",
-        "audio_features": {
-            "popularity": 57,
-            "acousticness": 0.154,
-            "danceability": 0.632,
-            "energy": 0.877,
-            "instrumentalness": 0.0,
-            "key": 4,
-            "liveness": 0.328,
-            "loudness": -6.905,
-            "mode": 1,
-            "speechiness": 0.0606,
-            "tempo": 138.391,
-            "valence": 0.749
-        }
-    },
-    {
-        "id": "7kzKAuUzOITUauHAhoMoxA",
-        "name": "Last Nite",
-        "artist": "The Strokes",
-        "artist_id": "0epOFNiUfyON9EYx7Tpr6V",
-        "release_date": "2001-07-30",
-        "genres": [
-            "garage rock",
-            "alternative rock",
-            "indie rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273a388a3f20d1bf2123249cc79",
-        "audio_features": {
-            "popularity": 72,
-            "acousticness": 0.0285,
-            "danceability": 0.624,
-            "energy": 0.91,
-            "instrumentalness": 0.000198,
-            "key": 0,
-            "liveness": 0.0789,
-            "loudness": -5.703,
-            "mode": 1,
-            "speechiness": 0.0297,
-            "tempo": 104.042,
-            "valence": 0.767
-        }
-    },
-    {
-        "id": "6JkioJZkImC4GRzgw5MGMO",
-        "name": "Sgt. Pepper's Lonely Hearts Club Band - 2017 Mix",
-        "artist": "The Beatles",
-        "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "release_date": "1967-05-26",
-        "genres": [
-            "classic rock",
-            "psychedelic rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273c92b57b8307e5999ec2fed69",
-        "audio_features": {
-            "popularity": 55,
-            "acousticness": 0.121,
-            "danceability": 0.628,
-            "energy": 0.89,
-            "instrumentalness": 0.0,
-            "key": 4,
-            "liveness": 0.281,
-            "loudness": -6.094,
-            "mode": 1,
-            "speechiness": 0.0675,
-            "tempo": 138.787,
-            "valence": 0.722
-        }
-    },
-    {
-        "id": "2RnPATK99oGOZygnD2GTO6",
-        "name": "With A Little Help From My Friends - Remastered 2009",
-        "artist": "The Beatles",
-        "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "release_date": "1967-06-01",
-        "genres": [
-            "classic rock",
-            "psychedelic rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27334ef8f7d06cf2fc2146f420a",
-        "audio_features": {
-            "popularity": 61,
-            "acousticness": 0.000367,
-            "danceability": 0.731,
-            "energy": 0.875,
-            "instrumentalness": 0.858,
+            "acousticness": 0.00105,
+            "danceability": 0.59,
+            "energy": 0.372,
+            "instrumentalness": 0.00929,
             "key": 7,
-            "liveness": 0.289,
-            "loudness": -6.393,
+            "liveness": 0.316,
+            "loudness": -12.37,
             "mode": 1,
-            "speechiness": 0.0457,
-            "tempo": 112.78,
-            "valence": 0.164
+            "speechiness": 0.0318,
+            "tempo": 99.887,
+            "valence": 0.306
         }
     },
     {
-        "id": "5xw2cHVLw1rlDPp3cL9Zuv",
-        "name": "She's Thunderstorms",
-        "artist": "Arctic Monkeys",
-        "artist_id": "7Ln80lUS6He07XvHI8qqHH",
-        "release_date": "2011-06-06",
+        "id": "76Je5Wklky23mVoxiRszcN",
+        "name": "Walk",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2011-04-12",
         "genres": [
-            "indie",
-            "garage rock"
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273cb44038b22f3d8a5e4e62d5a",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c20e79cd249b5928e956730b",
+        "audio_features": {
+            "popularity": 68,
+            "acousticness": 0.199,
+            "danceability": 0.256,
+            "energy": 0.641,
+            "instrumentalness": 0.0329,
+            "key": 1,
+            "liveness": 0.0853,
+            "loudness": -10.283,
+            "mode": 1,
+            "speechiness": 0.0552,
+            "tempo": 203.006,
+            "valence": 0.382
+        }
+    },
+    {
+        "id": "1pXgBjIvALm97lDhroan2E",
+        "name": "Times Like These - Acoustic Version",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2019-10-18",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b2739e4641ee6ee7dda1df7c1a5f",
         "audio_features": {
             "popularity": 60,
-            "acousticness": 0.00986,
-            "danceability": 0.693,
-            "energy": 0.875,
+            "acousticness": 0.0242,
+            "danceability": 0.343,
+            "energy": 0.503,
+            "instrumentalness": 0.00184,
+            "key": 6,
+            "liveness": 0.42,
+            "loudness": -6.018,
+            "mode": 0,
+            "speechiness": 0.0623,
+            "tempo": 146.11,
+            "valence": 0.5
+        }
+    },
+    {
+        "id": "4dVbhS6OiYvFikshyaQaCN",
+        "name": "My Hero",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1997-05-20",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b2734bc9bcdbdc9ac34e37d8b6bb",
+        "audio_features": {
+            "popularity": 76,
+            "acousticness": 0.00131,
+            "danceability": 0.596,
+            "energy": 0.952,
             "instrumentalness": 0.0,
             "key": 7,
-            "liveness": 0.0601,
-            "loudness": -8.354,
-            "mode": 0,
-            "speechiness": 0.0315,
-            "tempo": 120.048,
-            "valence": 0.899
-        }
-    },
-    {
-        "id": "6PwjJ58I4t7Mae9xfZ9l9v",
-        "name": "Somebody Told Me",
-        "artist": "The Killers",
-        "artist_id": "0C0XlULifJtAgn6ZNCW2eu",
-        "release_date": "2004",
-        "genres": [
-            "alternative rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273ccdddd46119a4ff53eaf1f5d",
-        "audio_features": {
-            "popularity": 82,
-            "acousticness": 0.000286,
-            "danceability": 0.637,
-            "energy": 0.963,
-            "instrumentalness": 0.000889,
-            "key": 9,
-            "liveness": 0.0449,
-            "loudness": -5.116,
+            "liveness": 0.598,
+            "loudness": -4.364,
             "mode": 1,
-            "speechiness": 0.0882,
-            "tempo": 150.1,
-            "valence": 0.823
+            "speechiness": 0.0873,
+            "tempo": 127.945,
+            "valence": 0.571
         }
     },
     {
-        "id": "5xoUgPXbMNUmoHU0Enwtwq",
-        "name": "She Moves In Her Own Way",
-        "artist": "The Kooks",
-        "artist_id": "1GLtl8uqKmnyCWxHmw9tL4",
-        "release_date": "2006-01-01",
+        "id": "67vYdAAM3oGsEImCRfbtsF",
+        "name": "Times Like These",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2002-10-22",
         "genres": [
-            "indie",
-            "indie rock"
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27363a28c5ecb7b13e9b329fe47",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273bfff163b0602156a983fa079",
+        "audio_features": {
+            "popularity": 69,
+            "acousticness": 0.884,
+            "danceability": 0.83,
+            "energy": 0.382,
+            "instrumentalness": 0.301,
+            "key": 2,
+            "liveness": 0.11,
+            "loudness": -11.231,
+            "mode": 0,
+            "speechiness": 0.0566,
+            "tempo": 121.12,
+            "valence": 0.54
+        }
+    },
+    {
+        "id": "3NUmUIyzNLBp8bCFMH8Mif",
+        "name": "Waiting On A War",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2021-01-14",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b27390b321f6484b49e9a9ba1f8d",
+        "audio_features": {
+            "popularity": 0,
+            "acousticness": null,
+            "danceability": null,
+            "energy": null,
+            "instrumentalness": null,
+            "key": null,
+            "liveness": null,
+            "loudness": null,
+            "mode": null,
+            "speechiness": null,
+            "tempo": null,
+            "valence": null
+        }
+    },
+    {
+        "id": "5UWwZ5lm5PKu6eKsHAGxOk",
+        "name": "Everlong",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1997-05-20",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b2734bc9bcdbdc9ac34e37d8b6bb",
+        "audio_features": {
+            "popularity": 84,
+            "acousticness": 0.0953,
+            "danceability": 0.526,
+            "energy": 0.744,
+            "instrumentalness": 0.152,
+            "key": 10,
+            "liveness": 0.109,
+            "loudness": -5.667,
+            "mode": 1,
+            "speechiness": 0.031,
+            "tempo": 117.034,
+            "valence": 0.163
+        }
+    },
+    {
+        "id": "5FZxsHWIvUsmSK1IAvm2pp",
+        "name": "Best of You",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2005-06-14",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b2735567646ae693a9c7b05a307f",
+        "audio_features": {
+            "popularity": 75,
+            "acousticness": 0.0608,
+            "danceability": 0.399,
+            "energy": 0.573,
+            "instrumentalness": 0.532,
+            "key": 2,
+            "liveness": 0.116,
+            "loudness": -11.674,
+            "mode": 1,
+            "speechiness": 0.0367,
+            "tempo": 134.168,
+            "valence": 0.598
+        }
+    },
+    {
+        "id": "6tsojOQ5wHaIjKqIryLZK6",
+        "name": "All My Life",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2002-10-22",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273bfff163b0602156a983fa079",
         "audio_features": {
             "popularity": 72,
-            "acousticness": 0.000147,
-            "danceability": 0.66,
-            "energy": 0.837,
-            "instrumentalness": 6.62e-06,
-            "key": 0,
-            "liveness": 0.0788,
-            "loudness": -4.315,
-            "mode": 1,
-            "speechiness": 0.0682,
-            "tempo": 135.158,
-            "valence": 0.757
-        }
-    },
-    {
-        "id": "6p9sPxEVx6Y2eiyh6JtRZD",
-        "name": "On Some Emo Shit",
-        "artist": "blink-182",
-        "artist_id": "6FBDaR13swtiWwGhX1WQsP",
-        "release_date": "2019-09-20",
-        "genres": [
-            "pop punk",
-            "punk",
-            "rock",
-            "skate punk",
-            "emo"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27306d2ecac7ede8709fb3e57f1",
-        "audio_features": {
-            "popularity": 41,
-            "acousticness": 0.000242,
-            "danceability": 0.606,
-            "energy": 0.887,
-            "instrumentalness": 0.0,
-            "key": 4,
-            "liveness": 0.337,
-            "loudness": -4.404,
-            "mode": 1,
-            "speechiness": 0.0598,
-            "tempo": 119.974,
-            "valence": 0.903
-        }
-    },
-    {
-        "id": "0xeYgM5UfwXZ1JEdT2MkhQ",
-        "name": "Ransom",
-        "artist": "blink-182",
-        "artist_id": "6FBDaR13swtiWwGhX1WQsP",
-        "release_date": "2019-09-20",
-        "genres": [
-            "pop punk",
-            "punk",
-            "rock",
-            "skate punk",
-            "emo"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27306d2ecac7ede8709fb3e57f1",
-        "audio_features": {
-            "popularity": 36,
-            "acousticness": 0.0297,
-            "danceability": 0.602,
-            "energy": 0.834,
-            "instrumentalness": 0.887,
-            "key": 1,
-            "liveness": 0.34,
-            "loudness": -6.573,
+            "acousticness": 5.99e-05,
+            "danceability": 0.413,
+            "energy": 0.881,
+            "instrumentalness": 0.000308,
+            "key": 11,
+            "liveness": 0.0805,
+            "loudness": -5.541,
             "mode": 0,
-            "speechiness": 0.0358,
-            "tempo": 125.99,
-            "valence": 0.353
+            "speechiness": 0.0367,
+            "tempo": 158.066,
+            "valence": 0.364
         }
     },
     {
-        "id": "6ZygaqgtPkiahkiYJhYWhn",
-        "name": "Seaside",
-        "artist": "The Kooks",
-        "artist_id": "1GLtl8uqKmnyCWxHmw9tL4",
-        "release_date": "2006-01-01",
+        "id": "1vziI0NCJKrqKiG94COHBa",
+        "name": "Stacked Actors",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1999-11-02",
         "genres": [
-            "indie",
-            "indie rock"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27363a28c5ecb7b13e9b329fe47",
-        "audio_features": {
-            "popularity": 63,
-            "acousticness": 0.00146,
-            "danceability": 0.654,
-            "energy": 0.828,
-            "instrumentalness": 0.000144,
-            "key": 1,
-            "liveness": 0.122,
-            "loudness": -5.377,
-            "mode": 0,
-            "speechiness": 0.0281,
-            "tempo": 112.056,
-            "valence": 0.79
-        }
-    },
-    {
-        "id": "4y84ILALZSa4LyP6H7NVjR",
-        "name": "Stadium Arcadium",
-        "artist": "Red Hot Chili Peppers",
-        "artist_id": "0L8ExT028jH3ddEcZwqJJ5",
-        "release_date": "2006-05-09",
-        "genres": [
-            "funk rock",
+            "rock",
+            "post-grunge",
             "alternative rock",
-            "rock"
+            "grunge"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
+        "audio_features": {
+            "popularity": 52,
+            "acousticness": 0.000109,
+            "danceability": 0.199,
+            "energy": 0.975,
+            "instrumentalness": 0.0,
+            "key": 10,
+            "liveness": 0.23,
+            "loudness": -5.609,
+            "mode": 1,
+            "speechiness": 0.0559,
+            "tempo": 177.442,
+            "valence": 0.758
+        }
+    },
+    {
+        "id": "2kh0u2d2YKQ7BCqeLPdHk6",
+        "name": "Breakout",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1999-11-02",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
         "audio_features": {
             "popularity": 59,
-            "acousticness": 0.142,
-            "danceability": 0.685,
-            "energy": 0.971,
-            "instrumentalness": 7.04e-06,
-            "key": 9,
-            "liveness": 0.0689,
-            "loudness": -3.153,
+            "acousticness": 5.75e-05,
+            "danceability": 0.323,
+            "energy": 0.951,
+            "instrumentalness": 1.78e-06,
+            "key": 1,
+            "liveness": 0.233,
+            "loudness": -5.844,
+            "mode": 1,
+            "speechiness": 0.0442,
+            "tempo": 139.54,
+            "valence": 0.772
+        }
+    },
+    {
+        "id": "5OQsiBsky2k2kDKy2bX2eT",
+        "name": "Learn to Fly",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1999-11-02",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
+        "audio_features": {
+            "popularity": 76,
+            "acousticness": 0.000241,
+            "danceability": 0.37,
+            "energy": 0.96,
+            "instrumentalness": 0.0116,
+            "key": 3,
+            "liveness": 0.0563,
+            "loudness": -4.162,
             "mode": 0,
-            "speechiness": 0.0362,
-            "tempo": 111.926,
-            "valence": 0.899
+            "speechiness": 0.0378,
+            "tempo": 89.428,
+            "valence": 0.717
         }
     },
     {
-        "id": "3L2Nyi3T7XabH8EEZFLDdX",
-        "name": "Wet Sand",
-        "artist": "Red Hot Chili Peppers",
-        "artist_id": "0L8ExT028jH3ddEcZwqJJ5",
-        "release_date": "2006-05-09",
+        "id": "3zgFz1o1N0hMHDzXS0fpIp",
+        "name": "Gimme Stitches",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1999-11-02",
         "genres": [
-            "funk rock",
+            "rock",
+            "post-grunge",
             "alternative rock",
-            "rock"
+            "grunge"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
         "audio_features": {
-            "popularity": 67,
-            "acousticness": 0.00177,
-            "danceability": 0.695,
-            "energy": 0.993,
-            "instrumentalness": 0.00246,
-            "key": 0,
-            "liveness": 0.0814,
-            "loudness": -3.114,
+            "popularity": 43,
+            "acousticness": 0.00171,
+            "danceability": 0.531,
+            "energy": 0.872,
+            "instrumentalness": 0.0863,
+            "key": 3,
+            "liveness": 0.109,
+            "loudness": -5.064,
             "mode": 1,
-            "speechiness": 0.0612,
-            "tempo": 107.951,
-            "valence": 0.281
+            "speechiness": 0.0492,
+            "tempo": 128.211,
+            "valence": 0.877
         }
     },
     {
-        "id": "0GRvnYqlnh7ttq9NS6s3Ta",
-        "name": "Desecration Smile",
-        "artist": "Red Hot Chili Peppers",
-        "artist_id": "0L8ExT028jH3ddEcZwqJJ5",
-        "release_date": "2006-05-09",
+        "id": "592nTDJAy8AucV4KKIDCmA",
+        "name": "Generator",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1999-11-02",
         "genres": [
-            "funk rock",
+            "rock",
+            "post-grunge",
             "alternative rock",
-            "rock"
+            "grunge"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27309fd83d32aee93dceba78517",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
         "audio_features": {
-            "popularity": 56,
-            "acousticness": 0.00624,
-            "danceability": 0.607,
-            "energy": 0.89,
-            "instrumentalness": 0.135,
-            "key": 2,
-            "liveness": 0.14,
-            "loudness": -3.148,
+            "popularity": 54,
+            "acousticness": 0.0011,
+            "danceability": 0.325,
+            "energy": 0.735,
+            "instrumentalness": 0.257,
+            "key": 4,
+            "liveness": 0.0887,
+            "loudness": -7.187,
             "mode": 1,
-            "speechiness": 0.0504,
-            "tempo": 115.941,
-            "valence": 0.671
+            "speechiness": 0.0372,
+            "tempo": 105.445,
+            "valence": 0.0471
         }
     },
     {
-        "id": "7isAYELhhKBIdffQS1wMbB",
-        "name": "Tear",
-        "artist": "Red Hot Chili Peppers",
-        "artist_id": "0L8ExT028jH3ddEcZwqJJ5",
-        "release_date": "2002-07-09",
+        "id": "7dIh8FF0EzYKS8STv3v4F4",
+        "name": "Aurora",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1999-11-02",
         "genres": [
-            "funk rock",
+            "rock",
+            "post-grunge",
             "alternative rock",
-            "rock"
+            "grunge"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273de1af2785a83cc660155a0c4",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
         "audio_features": {
-            "popularity": 50,
-            "acousticness": 0.013,
-            "danceability": 0.725,
-            "energy": 0.803,
-            "instrumentalness": 3.66e-05,
-            "key": 2,
-            "liveness": 0.0891,
-            "loudness": -4.083,
+            "popularity": 54,
+            "acousticness": 0.00666,
+            "danceability": 0.494,
+            "energy": 0.939,
+            "instrumentalness": 0.0,
+            "key": 1,
+            "liveness": 0.139,
+            "loudness": -3.127,
             "mode": 1,
-            "speechiness": 0.0337,
-            "tempo": 117.391,
-            "valence": 0.403
+            "speechiness": 0.126,
+            "tempo": 177.751,
+            "valence": 0.893
         }
     },
     {
@@ -1778,6 +616,426 @@
         }
     },
     {
+        "id": "1WwWjG2FGbBK6IkBBTknao",
+        "name": "Next Year",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1999-11-02",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
+        "audio_features": {
+            "popularity": 50,
+            "acousticness": 0.00066,
+            "danceability": 0.625,
+            "energy": 0.766,
+            "instrumentalness": 0.0,
+            "key": 11,
+            "liveness": 0.254,
+            "loudness": -4.776,
+            "mode": 1,
+            "speechiness": 0.0307,
+            "tempo": 113.312,
+            "valence": 0.825
+        }
+    },
+    {
+        "id": "4yFrDbYg7uxKKn31CojuxG",
+        "name": "Headwires",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1999-11-02",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
+        "audio_features": {
+            "popularity": 43,
+            "acousticness": 0.00784,
+            "danceability": 0.418,
+            "energy": 0.843,
+            "instrumentalness": 0.0,
+            "key": 9,
+            "liveness": 0.293,
+            "loudness": -4.658,
+            "mode": 1,
+            "speechiness": 0.05,
+            "tempo": 89.164,
+            "valence": 0.476
+        }
+    },
+    {
+        "id": "2ifYUfvMNbXQDPJEyk68rP",
+        "name": "Ain't It The Life",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1999-11-02",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
+        "audio_features": {
+            "popularity": 45,
+            "acousticness": 0.00206,
+            "danceability": 0.515,
+            "energy": 0.947,
+            "instrumentalness": 0.0,
+            "key": 3,
+            "liveness": 0.167,
+            "loudness": -3.985,
+            "mode": 1,
+            "speechiness": 0.136,
+            "tempo": 88.076,
+            "valence": 0.716
+        }
+    },
+    {
+        "id": "7kxTnvOsp5h9KlHxKNud0r",
+        "name": "M.I.A.",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "1999-11-02",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
+        "audio_features": {
+            "popularity": 40,
+            "acousticness": 0.0133,
+            "danceability": 0.651,
+            "energy": 0.76,
+            "instrumentalness": 0.0,
+            "key": 11,
+            "liveness": 0.139,
+            "loudness": -5.12,
+            "mode": 1,
+            "speechiness": 0.0309,
+            "tempo": 102.789,
+            "valence": 0.577
+        }
+    },
+    {
+        "id": "7bdUH0npz854dv3plG8ieT",
+        "name": "Saint Cecilia",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2015-11-23",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273afbc7f53bedd56843c7dc239",
+        "audio_features": {
+            "popularity": 53,
+            "acousticness": 0.000143,
+            "danceability": 0.486,
+            "energy": 0.88,
+            "instrumentalness": 0.0,
+            "key": 3,
+            "liveness": 0.107,
+            "loudness": -4.192,
+            "mode": 1,
+            "speechiness": 0.074,
+            "tempo": 90.803,
+            "valence": 0.482
+        }
+    },
+    {
+        "id": "1T8ZHOyYzHFd0t4LvdIHfz",
+        "name": "Sean",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2015-11-23",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273afbc7f53bedd56843c7dc239",
+        "audio_features": {
+            "popularity": 29,
+            "acousticness": 0.00759,
+            "danceability": 0.464,
+            "energy": 0.877,
+            "instrumentalness": 0.0,
+            "key": 3,
+            "liveness": 0.15,
+            "loudness": -4.343,
+            "mode": 1,
+            "speechiness": 0.0467,
+            "tempo": 89.384,
+            "valence": 0.483
+        }
+    },
+    {
+        "id": "5wLiev106dJ4rdPfKt3ibp",
+        "name": "Savior Breath",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2015-11-23",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273afbc7f53bedd56843c7dc239",
+        "audio_features": {
+            "popularity": 28,
+            "acousticness": 8.24e-05,
+            "danceability": 0.393,
+            "energy": 0.875,
+            "instrumentalness": 0.0,
+            "key": 4,
+            "liveness": 0.0764,
+            "loudness": -4.338,
+            "mode": 1,
+            "speechiness": 0.0639,
+            "tempo": 119.67,
+            "valence": 0.587
+        }
+    },
+    {
+        "id": "1WcJ8s2xDYguT7TOpgHnmH",
+        "name": "Iron Rooster",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2015-11-23",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273afbc7f53bedd56843c7dc239",
+        "audio_features": {
+            "popularity": 29,
+            "acousticness": 0.00551,
+            "danceability": 0.415,
+            "energy": 0.865,
+            "instrumentalness": 0.103,
+            "key": 7,
+            "liveness": 0.274,
+            "loudness": -2.789,
+            "mode": 1,
+            "speechiness": 0.0379,
+            "tempo": 176.864,
+            "valence": 0.465
+        }
+    },
+    {
+        "id": "5wFajLDxgaUNFl0AdNKj0Y",
+        "name": "The Neverending Sigh",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2015-11-23",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273afbc7f53bedd56843c7dc239",
+        "audio_features": {
+            "popularity": 32,
+            "acousticness": 0.0341,
+            "danceability": 0.404,
+            "energy": 0.322,
+            "instrumentalness": 2.31e-05,
+            "key": 1,
+            "liveness": 0.123,
+            "loudness": -10.904,
+            "mode": 1,
+            "speechiness": 0.0582,
+            "tempo": 82.2,
+            "valence": 0.776
+        }
+    },
+    {
+        "id": "7x8dCjCr0x6x2lXKujYD34",
+        "name": "The Pretender",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2007-09-25",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "audio_features": {
+            "popularity": 79,
+            "acousticness": 0.000138,
+            "danceability": 0.338,
+            "energy": 0.992,
+            "instrumentalness": 0.000228,
+            "key": 10,
+            "liveness": 0.214,
+            "loudness": -4.907,
+            "mode": 1,
+            "speechiness": 0.073,
+            "tempo": 171.552,
+            "valence": 0.681
+        }
+    },
+    {
+        "id": "2XvrMHbSO077Ajg7QTTNdY",
+        "name": "Let It Die",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2007-09-25",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "audio_features": {
+            "popularity": 55,
+            "acousticness": 0.0423,
+            "danceability": 0.507,
+            "energy": 0.907,
+            "instrumentalness": 6.83e-05,
+            "key": 6,
+            "liveness": 0.221,
+            "loudness": -3.443,
+            "mode": 0,
+            "speechiness": 0.0565,
+            "tempo": 104.994,
+            "valence": 0.587
+        }
+    },
+    {
+        "id": "5t142J9jQl1aaajsbxGjwg",
+        "name": "Erase/Replace",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2007-09-25",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "audio_features": {
+            "popularity": 43,
+            "acousticness": 0.000702,
+            "danceability": 0.468,
+            "energy": 0.981,
+            "instrumentalness": 0.0,
+            "key": 11,
+            "liveness": 0.124,
+            "loudness": -3.295,
+            "mode": 1,
+            "speechiness": 0.0609,
+            "tempo": 186.341,
+            "valence": 0.683
+        }
+    },
+    {
+        "id": "0bORa4VpL8NzyMXEI6UFGK",
+        "name": "Long Road To Ruin",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2007-09-25",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "audio_features": {
+            "popularity": 57,
+            "acousticness": 0.000633,
+            "danceability": 0.482,
+            "energy": 0.963,
+            "instrumentalness": 0.0,
+            "key": 11,
+            "liveness": 0.0959,
+            "loudness": -3.161,
+            "mode": 0,
+            "speechiness": 0.0743,
+            "tempo": 131.333,
+            "valence": 0.423
+        }
+    },
+    {
+        "id": "4P4s2KHOw0uISbLI3zkHtD",
+        "name": "Come Alive",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2007-09-25",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "audio_features": {
+            "popularity": 50,
+            "acousticness": 0.000246,
+            "danceability": 0.615,
+            "energy": 0.763,
+            "instrumentalness": 0.141,
+            "key": 6,
+            "liveness": 0.298,
+            "loudness": -4.189,
+            "mode": 1,
+            "speechiness": 0.0322,
+            "tempo": 115.991,
+            "valence": 0.333
+        }
+    },
+    {
+        "id": "7zaZlzl0XhthNwH3GQcyZ0",
+        "name": "Stranger Things Have Happened",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2007-09-25",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "audio_features": {
+            "popularity": 54,
+            "acousticness": 0.842,
+            "danceability": 0.34,
+            "energy": 0.331,
+            "instrumentalness": 0.833,
+            "key": 0,
+            "liveness": 0.112,
+            "loudness": -17.857,
+            "mode": 1,
+            "speechiness": 0.0325,
+            "tempo": 141.663,
+            "valence": 0.666
+        }
+    },
+    {
         "id": "5w4s2ccJcpiNlajHVGtHDg",
         "name": "Cheer Up, Boys (Your Make Up Is Running)",
         "artist": "Foo Fighters",
@@ -1803,6 +1061,90 @@
             "speechiness": 0.0571,
             "tempo": 108.004,
             "valence": 0.271
+        }
+    },
+    {
+        "id": "0cA5yQFQAfKjf64QHbPqss",
+        "name": "Summer's End",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2007-09-25",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "audio_features": {
+            "popularity": 42,
+            "acousticness": 0.0271,
+            "danceability": 0.557,
+            "energy": 0.924,
+            "instrumentalness": 3.32e-06,
+            "key": 9,
+            "liveness": 0.537,
+            "loudness": -4.341,
+            "mode": 0,
+            "speechiness": 0.064,
+            "tempo": 151.988,
+            "valence": 0.566
+        }
+    },
+    {
+        "id": "0CJuzA63oAQb8dJDY5IKhZ",
+        "name": "Ballad Of The Beaconsfield Miners",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2007-09-25",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "audio_features": {
+            "popularity": 38,
+            "acousticness": 0.000557,
+            "danceability": 0.561,
+            "energy": 0.964,
+            "instrumentalness": 1.46e-06,
+            "key": 4,
+            "liveness": 0.579,
+            "loudness": -2.993,
+            "mode": 0,
+            "speechiness": 0.0719,
+            "tempo": 138.064,
+            "valence": 0.411
+        }
+    },
+    {
+        "id": "2OSFREMR9mE2kiByPL3g71",
+        "name": "Statues",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2007-09-25",
+        "genres": [
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "audio_features": {
+            "popularity": 40,
+            "acousticness": 0.00132,
+            "danceability": 0.552,
+            "energy": 0.915,
+            "instrumentalness": 3.58e-05,
+            "key": 4,
+            "liveness": 0.206,
+            "loudness": -3.713,
+            "mode": 1,
+            "speechiness": 0.056,
+            "tempo": 90.013,
+            "valence": 0.602
         }
     },
     {
@@ -1834,29 +1176,31 @@
         }
     },
     {
-        "id": "0NdTUS4UiNYCNn5FgVqKQY",
-        "name": "Snap Out Of It",
-        "artist": "Arctic Monkeys",
-        "artist_id": "7Ln80lUS6He07XvHI8qqHH",
-        "release_date": "2013-09-09",
+        "id": "2fDVMNQmFuMORDD3dP7GkN",
+        "name": "Home",
+        "artist": "Foo Fighters",
+        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "release_date": "2007-09-25",
         "genres": [
-            "indie",
-            "garage rock"
+            "rock",
+            "post-grunge",
+            "alternative rock",
+            "grunge"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
         "audio_features": {
-            "popularity": 79,
-            "acousticness": 0.00607,
-            "danceability": 0.66,
-            "energy": 0.944,
-            "instrumentalness": 0.27,
-            "key": 2,
-            "liveness": 0.823,
-            "loudness": -3.692,
-            "mode": 1,
-            "speechiness": 0.0538,
-            "tempo": 127.02,
-            "valence": 0.682
+            "popularity": 50,
+            "acousticness": 0.0612,
+            "danceability": 0.512,
+            "energy": 0.95,
+            "instrumentalness": 0.0,
+            "key": 4,
+            "liveness": 0.203,
+            "loudness": -3.833,
+            "mode": 0,
+            "speechiness": 0.184,
+            "tempo": 151.945,
+            "valence": 0.538
         }
     }
 ]
