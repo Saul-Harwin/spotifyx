@@ -21,6 +21,8 @@ def explore(
     
     genre: str = typer.Option(None, "--genre", "-g", help="Filter by genre substring"),
     
+    artist: str = typer.Option(None, "--artist", "-a", help="Filter by artist name substring"),
+    
     max_tempo: float = typer.Option(None, "--max-tempo", help="Maximum tempo (BPM)"),
     min_tempo: float = typer.Option(None, "--min-tempo", help="Minimum tempo (BPM)"),
     
@@ -62,6 +64,7 @@ def explore(
         s for s in songs
             if (contains_value(s, "genres", genre)
             and contains_value(s, "release_date", release_date)
+            and contains_value(s, "artist", artist)
             
             and is_release_year(s, "release_year", release_year)
             and is_release_year(s, "release_year_range", release_year_range)
