@@ -4,6 +4,7 @@ from core.spotify_client import get_spotify_client
 import time
 from cli.main import console
 from natsort import natsorted
+import numpy as np
 
 def fetch_liked_songs(limit=100):
     sp = get_spotify_client()
@@ -16,7 +17,7 @@ def fetch_liked_songs(limit=100):
         
         if batch_num % 5 == 0 and batch_num != 0:
             console.print("[orange]Pausing for 20 seconds to avoid rate limits...[/orange]")
-            time.sleep(20)
+            time.sleep(0.5)
             console.print("[cyan]Resuming...[/cyan]")
         
         try:
@@ -226,10 +227,114 @@ def in_range(value, min_val, max_val):
 def sort_songs_by_attribute(songs, attribute):
     """Sort songs by a given audio feature, safely handling None and missing values."""
     return natsorted(songs, key=lambda s: s.get(attribute, ""))
+
+def get_all_genres(songs):
+    """Get a sorted list of all unique genres from the songs."""
+    genre_set = set()
+    for song in songs:
+        genres = song.get("genres", [])
+        for genre in genres:
+            genre_set.add(genre)
+            
+    console.print(f"[cyan]Found {len(genre_set)} unique genres.[/cyan]")
+    return natsorted(list(genre_set))
+
+def scale_all_audio_features(songs, liked_songs=read_cached_songs()):
+    """Scale all audio features to a 0-1 range."""
     
-   
+    feature_keys = [
+        "tempo", "duration", "popularity", "energy", "danceability",
+        "happiness", "acousticness", "instrumentalness", "liveness",
+        "speechiness", "loudness"
+    ]
+    
+    feature_mins = {key: float('inf') for key in feature_keys}
+    feature_maxs = {key: float('-inf') for key in feature_keys}
+    
+    # Find min and max for each feature
+    for song in liked_songs:
+        af = song.get("audio_features", {})
+        for key in feature_keys:
+            value = af.get(key)
+            if value is not None:
+                feature_mins[key] = min(feature_mins[key], value)
+                feature_maxs[key] = max(feature_maxs[key], value)
+    
+    # Scale features
+    for song in songs:
+        af = song.get("audio_features", {})
+        for key in feature_keys:
+            value = af.get(key)
+            if value is not None:
+                min_val = feature_mins[key]
+                max_val = feature_maxs[key]
+                if max_val > min_val:
+                    scaled_value = (value - min_val) / (max_val - min_val)
+                else:
+                    scaled_value = 0.0  # or 1.0, since all values are the same
+                af[key] = scaled_value
+    
+    return songs
 
+def genre_vectors(songs, all_genres):
+    """Generate genre vectors for each song based on the list of all genres."""
+    genre_vectors = []
+    for song in songs:
+        genre_vector = []
+        song_genres = song.get("genres", [])
+        for genre in all_genres:
+            if genre in song_genres:
+                genre_vector.append(1)
+            else:
+                genre_vector.append(0)
+        genre_vectors.append(genre_vector)
+    
+    return np.array(genre_vectors)
 
+def audio_feature_vectors(songs):
+    """Generate audio feature vectors for each song."""
+    feature_keys = [
+        "tempo", "duration", "popularity", "energy", "danceability",
+        "happiness", "acousticness", "instrumentalness", "liveness",
+        "speechiness", "loudness"
+    ]
+    
+    audio_feature_vectors = []
+    songs = scale_all_audio_features(songs)
+    
+    for song in songs:
+        vector = []
+        for key in feature_keys:
+            value = song["audio_features"].get(key)
+            if value is not None:
+                vector.append(value)
+            else:
+                vector.append(0.0)  # or some other default value
+        audio_feature_vectors.append(vector)
+    
+    return np.array(audio_feature_vectors)
 
+def cosine_distance(a, b):
+    a = np.asarray(a)
+    b = np.asarray(b)
 
+    dot_prod = np.dot(a, b)
+    norm_a = np.linalg.norm(a)
+    norm_b = np.linalg.norm(b)
 
+    if norm_a == 0 or norm_b == 0:
+        return 1.0  # maximum distance if either vector has no info
+
+    similarity = dot_prod / (norm_a * norm_b)
+    return 1 - similarity
+
+def find_song_by_name(name, cache_file="liked_songs_cache"):
+    songs = read_cached_songs(cache_file)
+    if not songs:
+        return None
+    
+    name_lower = name.lower()
+    for song in songs:
+        if song["name"].lower() == name_lower:
+            return song
+    return None

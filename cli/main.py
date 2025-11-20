@@ -22,6 +22,7 @@ def explore(
     genre: str = typer.Option(None, "--genre", "-g", help="Filter by genre substring"),
     
     artist: str = typer.Option(None, "--artist", "-a", help="Filter by artist name substring"),
+    name: str = typer.Option(None, "--name", "-n", help="Filter by song name substring"),
     
     max_tempo: float = typer.Option(None, "--max-tempo", help="Maximum tempo (BPM)"),
     min_tempo: float = typer.Option(None, "--min-tempo", help="Minimum tempo (BPM)"),
@@ -65,10 +66,9 @@ def explore(
             if (contains_value(s, "genres", genre)
             and contains_value(s, "release_date", release_date)
             and contains_value(s, "artist", artist)
-            
+            and contains_value(s, "name", name)
             and is_release_year(s, "release_year", release_year)
             and is_release_year(s, "release_year_range", release_year_range)
-            
             and contains_value(s["audio_features"], "key", key) 
             and contains_value(s["audio_features"], "mode", mode)
             and in_range(s["audio_features"].get("tempo"), min_tempo, max_tempo)
@@ -162,6 +162,84 @@ def sort_songs(
         console.print(f"[yellow]{artist}[/yellow] — {name} | {attribute}: {attr_value}")
 
     cache_songs(sorted_songs, cache_file="songs_cache")
+
+@app.command()
+def songs_like_this(
+    query_songs: str = typer.Option(None, "--songs", "-s", help="Comma-separated list of song names to base recommendations on or if left empty, uses cached songs"),
+    candidate_pool: str = typer.Option(None, "--source", "-r", help="Sources for recommendation candidates: 'liked_songs', 'cache', or a comma-separated list of songs"),
+    audio_weight: float = typer.Option(0.7, "--audio-weight", help="Weight for audio features in similarity calculation (0 to 1) - default 0.7"),
+    genre_weight: float = typer.Option(0.5, "--genre-weight", help="Weight for genre features in similarity calculation (0 to 1) - default 0.5"),
+    similarity_threshold: float = typer.Option(0.7, "--similarity-threshold", "-t", help="Minimum similarity score (0 to 1) to consider a song similar - default 0.7")
+    ):
+    """Given a list of songs, return a list of songs similar to them based on audio features."""
+    
+    # Check that the user has provided at least one song
+    if query_songs:
+        try:
+            query_songs = [s.strip() for s in query_songs.split(",")]
+            for i in range(len(query_songs)):
+                query_songs[i] = find_song_by_name(query_songs[i])
+        except Exception as e:
+            console.print(f"[red]Error parsing query songs:[/red] {e}")
+            return []
+    if query_songs == None and candidate_pool == None:
+        console.print("[red]Error: You must provide at least one song or candidate pool for recommendation.[/red]")
+        return []
+    elif query_songs == None:
+        query_songs = read_cached_songs("songs_cache")
+    
+    # Fetch audio features for query songs    
+    if candidate_pool == "liked_songs":
+        candidate_pool = read_cached_songs()
+    elif candidate_pool == "cache":
+        candidate_pool = read_cached_songs("songs_cache")
+    elif candidate_pool.__contains__(","):
+        try:
+            candidate_pool = [s.strip() for s in candidate_pool.split(",")]
+        except Exception as e:
+            console.print(f"[red]Error parsing candidate pool songs:[/red] {e}")
+            return []
+    else:
+        return []
+        
+    all_genres = get_all_genres(candidate_pool)
+
+    # Create genre vectors
+    candidate_pool_genre_vectors = genre_vectors(candidate_pool, all_genres)
+    query_songs_genre_vectors = genre_vectors(query_songs, all_genres)
+    
+    # Create audio feature vectors
+    candidate_pool_feature_vectors = audio_feature_vectors(candidate_pool)
+    query_songs_feature_vectors = audio_feature_vectors(query_songs)
+    
+    
+    # Final Vectors 
+    candidate_pool_final_vectors = np.hstack([
+        candidate_pool_genre_vectors * genre_weight,
+        candidate_pool_feature_vectors * audio_weight
+    ])
+    
+    
+    query_songs_final_vector = np.hstack([
+        np.mean(query_songs_genre_vectors * genre_weight, axis=0),
+        np.mean(query_songs_feature_vectors * audio_weight, axis=0)
+    ])
+    
+    print(find_song_by_name("Basket Case"))
+    print(query_songs_feature_vectors)
+    print(query_songs_final_vector)
+    
+    similar_songs = []
+    for i, candidate_vector in enumerate(candidate_pool_final_vectors):
+        similarities = 1 - cosine_distance(candidate_vector, query_songs_final_vector)
+
+        if similarities >= similarity_threshold:
+            console.print(f"[green]Found similar song:[/green] {candidate_pool[i]['name']} with similarity {similarities}")
+            similar_songs.append(candidate_pool[i])
+
+    console.print(f"[green]Total similar songs found: {len(similar_songs)}[/green]")
+    cache_songs(similar_songs, cache_file="songs_cache")
+
 
 if __name__ == "__main__":
     app()

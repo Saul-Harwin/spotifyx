@@ -1,1206 +1,1510 @@
 [
     {
-        "id": "3yIUusX4NApzRSAkxZFrJg",
-        "name": "My Poor Brain",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1997-05-20",
+        "id": "45zvStEMsXp8z45OQRhWFJ",
+        "name": "American Idiot",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2004-09-21",
         "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
+            "punk",
+            "pop punk"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2734bc9bcdbdc9ac34e37d8b6bb",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2739079e678be6b947cc2b3b5c6",
         "audio_features": {
-            "popularity": 46,
-            "acousticness": 0.0375,
-            "danceability": 0.681,
-            "energy": 0.714,
-            "instrumentalness": 0.0,
-            "key": 1,
-            "liveness": 0.232,
-            "loudness": -4.617,
-            "mode": 0,
-            "speechiness": 0.0309,
-            "tempo": 129.976,
-            "valence": 0.554
-        }
-    },
-    {
-        "id": "4LGKzrdEeBwR9UHCGlDT0W",
-        "name": "I'll Stick Around",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1995-07-04",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27352844939eaf38ec62110fcde",
-        "audio_features": {
-            "popularity": 59,
-            "acousticness": 0.0115,
-            "danceability": 0.375,
-            "energy": 0.794,
-            "instrumentalness": 0.0,
-            "key": 1,
-            "liveness": 0.242,
-            "loudness": -3.945,
+            "popularity": 0.6521739130434783,
+            "acousticness": 0.0651670783510009,
+            "danceability": 0.4534883720930233,
+            "energy": 0.6416046899730403,
+            "instrumentalness": 3.705583756345178e-06,
+            "key": 8,
+            "liveness": 0.2603734439834025,
+            "loudness": 0.5932352837442246,
             "mode": 1,
-            "speechiness": 0.0505,
-            "tempo": 169.846,
-            "valence": 0.34
+            "speechiness": 0.06278026905829595,
+            "tempo": 0.4033546623594459,
+            "valence": 0.295
         }
     },
     {
-        "id": "2wO8aOvN1ogLy1N8XT1WJE",
-        "name": "This Is a Call",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1995-07-04",
+        "id": "1nLnpLXvl68RZCSjfkyiaa",
+        "name": "Brain Stew",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1995-10-10",
         "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
+            "punk",
+            "pop punk"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27352844939eaf38ec62110fcde",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
         "audio_features": {
-            "popularity": 59,
-            "acousticness": 0.000261,
-            "danceability": 0.531,
-            "energy": 0.664,
-            "instrumentalness": 0.0,
-            "key": 2,
-            "liveness": 0.205,
-            "loudness": -4.428,
-            "mode": 1,
-            "speechiness": 0.0304,
-            "tempo": 135.3,
-            "valence": 0.215
-        }
-    },
-    {
-        "id": "2kN05N1AQQplsgFweFAqYb",
-        "name": "These Days",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2011-04-12",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273c20e79cd249b5928e956730b",
-        "audio_features": {
-            "popularity": 63,
-            "acousticness": 1.83e-05,
-            "danceability": 0.401,
-            "energy": 0.953,
-            "instrumentalness": 2.56e-05,
+            "popularity": 0.8695652173913043,
+            "acousticness": 0.12359413595406334,
+            "danceability": 0.5965116279069768,
+            "energy": 0.6486124194987071,
+            "instrumentalness": 2.6598984771573605e-06,
             "key": 4,
-            "liveness": 0.149,
-            "loudness": -4.276,
+            "liveness": 0.14522821576763487,
+            "loudness": 0.7225690403131944,
             "mode": 1,
-            "speechiness": 0.0752,
-            "tempo": 174.217,
+            "speechiness": 0.042280589365791155,
+            "tempo": 0.29924830713797607,
+            "valence": 0.49
+        }
+    },
+    {
+        "id": "0KqyBk4aVT88TEqBIC8mAP",
+        "name": "Girl All the Bad Guys Want",
+        "artist": "Bowling For Soup",
+        "artist_id": "5ND0mGcL9SKSjWIjPd0xIb",
+        "release_date": "2002",
+        "genres": [
+            "pop punk",
+            "punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b27397ed7b212715424daac8c600",
+        "audio_features": {
+            "popularity": 0.6847826086956522,
+            "acousticness": 0.0028482884145876143,
+            "danceability": 0.48720930232558146,
+            "energy": 0.857843201050759,
+            "instrumentalness": 0.0,
+            "key": 11,
+            "liveness": 0.10684647302904564,
+            "loudness": 0.79861037632702,
+            "mode": 1,
+            "speechiness": 0.03608797779201366,
+            "tempo": 0.6600795179225943,
+            "valence": 0.605
+        }
+    },
+    {
+        "id": "5oQcOu1omDykbIPSdSQQNJ",
+        "name": "1985",
+        "artist": "Bowling For Soup",
+        "artist_id": "5ND0mGcL9SKSjWIjPd0xIb",
+        "release_date": "2004",
+        "genres": [
+            "pop punk",
+            "punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273f9b3ece3271d3a5fa73d3759",
+        "audio_features": {
+            "popularity": 0.7717391304347826,
+            "acousticness": 0.0002824008499216551,
+            "danceability": 0.42093023255813955,
+            "energy": 0.9759734987691423,
+            "instrumentalness": 2.7309644670050763e-05,
+            "key": 2,
+            "liveness": 0.13900414937759337,
+            "loudness": 0.8476704405177583,
+            "mode": 1,
+            "speechiness": 0.08605594704249411,
+            "tempo": 0.704243026650929,
+            "valence": 0.371
+        }
+    },
+    {
+        "id": "4UuHWIkAWnN176A2rx7YFB",
+        "name": "1985",
+        "artist": "Bowling For Soup",
+        "artist_id": "5ND0mGcL9SKSjWIjPd0xIb",
+        "release_date": "2004-09-11",
+        "genres": [
+            "pop punk",
+            "punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273317148944ac33678369cb8f2",
+        "audio_features": {
+            "popularity": 0.5543478260869565,
+            "acousticness": 0.0006480806859687941,
+            "danceability": 0.33139534883720934,
+            "energy": 0.9299227047433319,
+            "instrumentalness": 0.0,
+            "key": 6,
+            "liveness": 0.3651452282157676,
+            "loudness": 0.7542764434098685,
+            "mode": 0,
+            "speechiness": 0.04014520606448857,
+            "tempo": 0.6788532024600858,
             "valence": 0.555
         }
     },
     {
-        "id": "6pb5BBnIM5IM7R1cqag6rE",
-        "name": "Big Me",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1995-07-04",
+        "id": "4UGWMzkmEPpYoS9myk8lAG",
+        "name": "Somewhere Now",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2016-10-07",
         "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
+            "punk",
+            "pop punk"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27352844939eaf38ec62110fcde",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273af71e889d130283bcd08b8a7",
         "audio_features": {
-            "popularity": 62,
-            "acousticness": 0.0212,
-            "danceability": 0.679,
-            "energy": 0.825,
-            "instrumentalness": 1.21e-05,
-            "key": 0,
-            "liveness": 0.543,
-            "loudness": -5.487,
-            "mode": 1,
-            "speechiness": 0.0309,
-            "tempo": 118.049,
-            "valence": 0.644
-        }
-    },
-    {
-        "id": "44wXefe8WB9Fd6xwtmAwbR",
-        "name": "Monkey Wrench",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1997-05-20",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2734bc9bcdbdc9ac34e37d8b6bb",
-        "audio_features": {
-            "popularity": 68,
-            "acousticness": 0.0127,
-            "danceability": 0.435,
-            "energy": 0.588,
+            "popularity": 0.43478260869565216,
+            "acousticness": 0.0002068133977778331,
+            "danceability": 0.27325581395348836,
+            "energy": 0.9729701861152852,
             "instrumentalness": 0.0,
-            "key": 2,
-            "liveness": 0.101,
-            "loudness": -6.968,
-            "mode": 1,
-            "speechiness": 0.0572,
-            "tempo": 129.962,
-            "valence": 0.101
-        }
-    },
-    {
-        "id": "3KsatAMRt1a7iryhWt5I8U",
-        "name": "Wheels",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2009-11-03",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273136d7250568820409f8fdd60",
-        "audio_features": {
-            "popularity": 61,
-            "acousticness": 0.00105,
-            "danceability": 0.59,
-            "energy": 0.372,
-            "instrumentalness": 0.00929,
-            "key": 7,
-            "liveness": 0.316,
-            "loudness": -12.37,
-            "mode": 1,
-            "speechiness": 0.0318,
-            "tempo": 99.887,
-            "valence": 0.306
-        }
-    },
-    {
-        "id": "76Je5Wklky23mVoxiRszcN",
-        "name": "Walk",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2011-04-12",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273c20e79cd249b5928e956730b",
-        "audio_features": {
-            "popularity": 68,
-            "acousticness": 0.199,
-            "danceability": 0.256,
-            "energy": 0.641,
-            "instrumentalness": 0.0329,
-            "key": 1,
-            "liveness": 0.0853,
-            "loudness": -10.283,
-            "mode": 1,
-            "speechiness": 0.0552,
-            "tempo": 203.006,
-            "valence": 0.382
-        }
-    },
-    {
-        "id": "1pXgBjIvALm97lDhroan2E",
-        "name": "Times Like These - Acoustic Version",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2019-10-18",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2739e4641ee6ee7dda1df7c1a5f",
-        "audio_features": {
-            "popularity": 60,
-            "acousticness": 0.0242,
-            "danceability": 0.343,
-            "energy": 0.503,
-            "instrumentalness": 0.00184,
-            "key": 6,
-            "liveness": 0.42,
-            "loudness": -6.018,
-            "mode": 0,
-            "speechiness": 0.0623,
-            "tempo": 146.11,
-            "valence": 0.5
-        }
-    },
-    {
-        "id": "4dVbhS6OiYvFikshyaQaCN",
-        "name": "My Hero",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1997-05-20",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2734bc9bcdbdc9ac34e37d8b6bb",
-        "audio_features": {
-            "popularity": 76,
-            "acousticness": 0.00131,
-            "danceability": 0.596,
-            "energy": 0.952,
-            "instrumentalness": 0.0,
-            "key": 7,
-            "liveness": 0.598,
-            "loudness": -4.364,
-            "mode": 1,
-            "speechiness": 0.0873,
-            "tempo": 127.945,
-            "valence": 0.571
-        }
-    },
-    {
-        "id": "67vYdAAM3oGsEImCRfbtsF",
-        "name": "Times Like These",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2002-10-22",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273bfff163b0602156a983fa079",
-        "audio_features": {
-            "popularity": 69,
-            "acousticness": 0.884,
-            "danceability": 0.83,
-            "energy": 0.382,
-            "instrumentalness": 0.301,
-            "key": 2,
-            "liveness": 0.11,
-            "loudness": -11.231,
-            "mode": 0,
-            "speechiness": 0.0566,
-            "tempo": 121.12,
-            "valence": 0.54
-        }
-    },
-    {
-        "id": "3NUmUIyzNLBp8bCFMH8Mif",
-        "name": "Waiting On A War",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2021-01-14",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b27390b321f6484b49e9a9ba1f8d",
-        "audio_features": {
-            "popularity": 0,
-            "acousticness": null,
-            "danceability": null,
-            "energy": null,
-            "instrumentalness": null,
-            "key": null,
-            "liveness": null,
-            "loudness": null,
-            "mode": null,
-            "speechiness": null,
-            "tempo": null,
-            "valence": null
-        }
-    },
-    {
-        "id": "5UWwZ5lm5PKu6eKsHAGxOk",
-        "name": "Everlong",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1997-05-20",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2734bc9bcdbdc9ac34e37d8b6bb",
-        "audio_features": {
-            "popularity": 84,
-            "acousticness": 0.0953,
-            "danceability": 0.526,
-            "energy": 0.744,
-            "instrumentalness": 0.152,
-            "key": 10,
-            "liveness": 0.109,
-            "loudness": -5.667,
-            "mode": 1,
-            "speechiness": 0.031,
-            "tempo": 117.034,
-            "valence": 0.163
-        }
-    },
-    {
-        "id": "5FZxsHWIvUsmSK1IAvm2pp",
-        "name": "Best of You",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2005-06-14",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2735567646ae693a9c7b05a307f",
-        "audio_features": {
-            "popularity": 75,
-            "acousticness": 0.0608,
-            "danceability": 0.399,
-            "energy": 0.573,
-            "instrumentalness": 0.532,
-            "key": 2,
-            "liveness": 0.116,
-            "loudness": -11.674,
-            "mode": 1,
-            "speechiness": 0.0367,
-            "tempo": 134.168,
-            "valence": 0.598
-        }
-    },
-    {
-        "id": "6tsojOQ5wHaIjKqIryLZK6",
-        "name": "All My Life",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2002-10-22",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273bfff163b0602156a983fa079",
-        "audio_features": {
-            "popularity": 72,
-            "acousticness": 5.99e-05,
-            "danceability": 0.413,
-            "energy": 0.881,
-            "instrumentalness": 0.000308,
-            "key": 11,
-            "liveness": 0.0805,
-            "loudness": -5.541,
-            "mode": 0,
-            "speechiness": 0.0367,
-            "tempo": 158.066,
-            "valence": 0.364
-        }
-    },
-    {
-        "id": "1vziI0NCJKrqKiG94COHBa",
-        "name": "Stacked Actors",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1999-11-02",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
-        "audio_features": {
-            "popularity": 52,
-            "acousticness": 0.000109,
-            "danceability": 0.199,
-            "energy": 0.975,
-            "instrumentalness": 0.0,
-            "key": 10,
-            "liveness": 0.23,
-            "loudness": -5.609,
-            "mode": 1,
-            "speechiness": 0.0559,
-            "tempo": 177.442,
-            "valence": 0.758
-        }
-    },
-    {
-        "id": "2kh0u2d2YKQ7BCqeLPdHk6",
-        "name": "Breakout",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1999-11-02",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
-        "audio_features": {
-            "popularity": 59,
-            "acousticness": 5.75e-05,
-            "danceability": 0.323,
-            "energy": 0.951,
-            "instrumentalness": 1.78e-06,
-            "key": 1,
-            "liveness": 0.233,
-            "loudness": -5.844,
-            "mode": 1,
-            "speechiness": 0.0442,
-            "tempo": 139.54,
-            "valence": 0.772
-        }
-    },
-    {
-        "id": "5OQsiBsky2k2kDKy2bX2eT",
-        "name": "Learn to Fly",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1999-11-02",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
-        "audio_features": {
-            "popularity": 76,
-            "acousticness": 0.000241,
-            "danceability": 0.37,
-            "energy": 0.96,
-            "instrumentalness": 0.0116,
-            "key": 3,
-            "liveness": 0.0563,
-            "loudness": -4.162,
-            "mode": 0,
-            "speechiness": 0.0378,
-            "tempo": 89.428,
-            "valence": 0.717
-        }
-    },
-    {
-        "id": "3zgFz1o1N0hMHDzXS0fpIp",
-        "name": "Gimme Stitches",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1999-11-02",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
-        "audio_features": {
-            "popularity": 43,
-            "acousticness": 0.00171,
-            "danceability": 0.531,
-            "energy": 0.872,
-            "instrumentalness": 0.0863,
-            "key": 3,
-            "liveness": 0.109,
-            "loudness": -5.064,
-            "mode": 1,
-            "speechiness": 0.0492,
-            "tempo": 128.211,
-            "valence": 0.877
-        }
-    },
-    {
-        "id": "592nTDJAy8AucV4KKIDCmA",
-        "name": "Generator",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1999-11-02",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
-        "audio_features": {
-            "popularity": 54,
-            "acousticness": 0.0011,
-            "danceability": 0.325,
-            "energy": 0.735,
-            "instrumentalness": 0.257,
             "key": 4,
-            "liveness": 0.0887,
-            "loudness": -7.187,
+            "liveness": 0.15767634854771784,
+            "loudness": 0.8316932952421261,
             "mode": 1,
-            "speechiness": 0.0372,
-            "tempo": 105.445,
-            "valence": 0.0471
+            "speechiness": 0.040038436899423456,
+            "tempo": 0.5969497421879855,
+            "valence": 0.745
         }
     },
     {
-        "id": "7dIh8FF0EzYKS8STv3v4F4",
-        "name": "Aurora",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1999-11-02",
+        "id": "278Ao6KQDxWGGszv24uvhI",
+        "name": "Bang Bang",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2016-10-07",
         "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
+            "punk",
+            "pop punk"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273af71e889d130283bcd08b8a7",
         "audio_features": {
-            "popularity": 54,
-            "acousticness": 0.00666,
-            "danceability": 0.494,
-            "energy": 0.939,
-            "instrumentalness": 0.0,
-            "key": 1,
-            "liveness": 0.139,
-            "loudness": -3.127,
-            "mode": 1,
-            "speechiness": 0.126,
-            "tempo": 177.751,
-            "valence": 0.893
-        }
-    },
-    {
-        "id": "6olSqj5lSv0Fy8iB0MUU5c",
-        "name": "Live-In Skin",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1999-11-02",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
-        "audio_features": {
-            "popularity": 40,
-            "acousticness": 0.00043,
-            "danceability": 0.62,
-            "energy": 0.93,
-            "instrumentalness": 0.0,
-            "key": 1,
-            "liveness": 0.0686,
-            "loudness": -3.685,
-            "mode": 1,
-            "speechiness": 0.0374,
-            "tempo": 106.22,
-            "valence": 0.609
-        }
-    },
-    {
-        "id": "1WwWjG2FGbBK6IkBBTknao",
-        "name": "Next Year",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1999-11-02",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
-        "audio_features": {
-            "popularity": 50,
-            "acousticness": 0.00066,
-            "danceability": 0.625,
-            "energy": 0.766,
-            "instrumentalness": 0.0,
+            "popularity": 0.5978260869565217,
+            "acousticness": 4.3513857585497555e-06,
+            "danceability": 0.3046511627906977,
+            "energy": 0.9889878536025236,
+            "instrumentalness": 0.0001553299492385787,
             "key": 11,
-            "liveness": 0.254,
-            "loudness": -4.776,
+            "liveness": 0.26970954356846477,
+            "loudness": 0.8347264839699503,
             "mode": 1,
-            "speechiness": 0.0307,
-            "tempo": 113.312,
-            "valence": 0.825
+            "speechiness": 0.0405722827247491,
+            "tempo": 0.2989687519413556,
+            "valence": 0.793
         }
     },
     {
-        "id": "4yFrDbYg7uxKKn31CojuxG",
-        "name": "Headwires",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1999-11-02",
+        "id": "2OV1oB6LQWNw7kTOHU7Bua",
+        "name": "Say Goodbye",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2016-10-07",
         "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
+            "punk",
+            "pop punk"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273af71e889d130283bcd08b8a7",
         "audio_features": {
-            "popularity": 43,
-            "acousticness": 0.00784,
-            "danceability": 0.418,
-            "energy": 0.843,
-            "instrumentalness": 0.0,
+            "popularity": 0.4782608695652174,
+            "acousticness": 0.0003314305486095397,
+            "danceability": 0.44069767441860463,
+            "energy": 0.9589547270639515,
+            "instrumentalness": 2.223350253807107e-06,
             "key": 9,
-            "liveness": 0.293,
-            "loudness": -4.658,
+            "liveness": 0.4263485477178423,
+            "loudness": 0.7658801537756147,
             "mode": 1,
-            "speechiness": 0.05,
-            "tempo": 89.164,
-            "valence": 0.476
+            "speechiness": 0.07196241725389707,
+            "tempo": 0.4893644778530162,
+            "valence": 0.359
         }
     },
     {
-        "id": "2ifYUfvMNbXQDPJEyk68rP",
-        "name": "Ain't It The Life",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1999-11-02",
+        "id": "0PAlrNkCRRHv7hShF5s7Rr",
+        "name": "Outlaws",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2016-10-07",
         "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
+            "punk",
+            "pop punk"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273af71e889d130283bcd08b8a7",
         "audio_features": {
-            "popularity": 45,
-            "acousticness": 0.00206,
-            "danceability": 0.515,
-            "energy": 0.947,
+            "popularity": 0.4673913043478261,
+            "acousticness": 0.014503056373520177,
+            "danceability": 0.48837209302325585,
+            "energy": 0.9028928908586171,
             "instrumentalness": 0.0,
-            "key": 3,
-            "liveness": 0.167,
-            "loudness": -3.985,
-            "mode": 1,
-            "speechiness": 0.136,
-            "tempo": 88.076,
-            "valence": 0.716
-        }
-    },
-    {
-        "id": "7kxTnvOsp5h9KlHxKNud0r",
-        "name": "M.I.A.",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "1999-11-02",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b2736c52084ed1f1748f213783b3",
-        "audio_features": {
-            "popularity": 40,
-            "acousticness": 0.0133,
-            "danceability": 0.651,
-            "energy": 0.76,
-            "instrumentalness": 0.0,
-            "key": 11,
-            "liveness": 0.139,
-            "loudness": -5.12,
-            "mode": 1,
-            "speechiness": 0.0309,
-            "tempo": 102.789,
-            "valence": 0.577
-        }
-    },
-    {
-        "id": "7bdUH0npz854dv3plG8ieT",
-        "name": "Saint Cecilia",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2015-11-23",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273afbc7f53bedd56843c7dc239",
-        "audio_features": {
-            "popularity": 53,
-            "acousticness": 0.000143,
-            "danceability": 0.486,
-            "energy": 0.88,
-            "instrumentalness": 0.0,
-            "key": 3,
-            "liveness": 0.107,
-            "loudness": -4.192,
-            "mode": 1,
-            "speechiness": 0.074,
-            "tempo": 90.803,
-            "valence": 0.482
-        }
-    },
-    {
-        "id": "1T8ZHOyYzHFd0t4LvdIHfz",
-        "name": "Sean",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2015-11-23",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273afbc7f53bedd56843c7dc239",
-        "audio_features": {
-            "popularity": 29,
-            "acousticness": 0.00759,
-            "danceability": 0.464,
-            "energy": 0.877,
-            "instrumentalness": 0.0,
-            "key": 3,
-            "liveness": 0.15,
-            "loudness": -4.343,
-            "mode": 1,
-            "speechiness": 0.0467,
-            "tempo": 89.384,
-            "valence": 0.483
-        }
-    },
-    {
-        "id": "5wLiev106dJ4rdPfKt3ibp",
-        "name": "Savior Breath",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2015-11-23",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273afbc7f53bedd56843c7dc239",
-        "audio_features": {
-            "popularity": 28,
-            "acousticness": 8.24e-05,
-            "danceability": 0.393,
-            "energy": 0.875,
-            "instrumentalness": 0.0,
-            "key": 4,
-            "liveness": 0.0764,
-            "loudness": -4.338,
-            "mode": 1,
-            "speechiness": 0.0639,
-            "tempo": 119.67,
-            "valence": 0.587
-        }
-    },
-    {
-        "id": "1WcJ8s2xDYguT7TOpgHnmH",
-        "name": "Iron Rooster",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2015-11-23",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273afbc7f53bedd56843c7dc239",
-        "audio_features": {
-            "popularity": 29,
-            "acousticness": 0.00551,
-            "danceability": 0.415,
-            "energy": 0.865,
-            "instrumentalness": 0.103,
-            "key": 7,
-            "liveness": 0.274,
-            "loudness": -2.789,
-            "mode": 1,
-            "speechiness": 0.0379,
-            "tempo": 176.864,
-            "valence": 0.465
-        }
-    },
-    {
-        "id": "5wFajLDxgaUNFl0AdNKj0Y",
-        "name": "The Neverending Sigh",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2015-11-23",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273afbc7f53bedd56843c7dc239",
-        "audio_features": {
-            "popularity": 32,
-            "acousticness": 0.0341,
-            "danceability": 0.404,
-            "energy": 0.322,
-            "instrumentalness": 2.31e-05,
             "key": 1,
-            "liveness": 0.123,
-            "loudness": -10.904,
+            "liveness": 0.05663900414937759,
+            "loudness": 0.8307762846965048,
             "mode": 1,
-            "speechiness": 0.0582,
-            "tempo": 82.2,
-            "valence": 0.776
+            "speechiness": 0.02327567798419817,
+            "tempo": 0.1634776666459589,
+            "valence": 0.692
         }
     },
     {
-        "id": "7x8dCjCr0x6x2lXKujYD34",
-        "name": "The Pretender",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2007-09-25",
+        "id": "19YmvsVCetCBeVj6O2mljR",
+        "name": "Still Breathing",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2016-10-07",
         "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
+            "punk",
+            "pop punk"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273af71e889d130283bcd08b8a7",
         "audio_features": {
-            "popularity": 79,
-            "acousticness": 0.000138,
-            "danceability": 0.338,
-            "energy": 0.992,
-            "instrumentalness": 0.000228,
-            "key": 10,
-            "liveness": 0.214,
-            "loudness": -4.907,
-            "mode": 1,
-            "speechiness": 0.073,
-            "tempo": 171.552,
-            "valence": 0.681
-        }
-    },
-    {
-        "id": "2XvrMHbSO077Ajg7QTTNdY",
-        "name": "Let It Die",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2007-09-25",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
-        "audio_features": {
-            "popularity": 55,
-            "acousticness": 0.0423,
-            "danceability": 0.507,
-            "energy": 0.907,
-            "instrumentalness": 6.83e-05,
-            "key": 6,
-            "liveness": 0.221,
-            "loudness": -3.443,
+            "popularity": 0.6739130434782609,
+            "acousticness": 3.1838660585445044e-05,
+            "danceability": 0.4348837209302326,
+            "energy": 0.9939933746922855,
+            "instrumentalness": 0.02446700507614213,
+            "key": 1,
+            "liveness": 0.15767634854771784,
+            "loudness": 0.8539837054279971,
             "mode": 0,
-            "speechiness": 0.0565,
-            "tempo": 104.994,
-            "valence": 0.587
+            "speechiness": 0.05135596839632713,
+            "tempo": 0.28113313039696836,
+            "valence": 0.777
         }
     },
     {
-        "id": "5t142J9jQl1aaajsbxGjwg",
-        "name": "Erase/Replace",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2007-09-25",
+        "id": "5JwuHzmJCmHuHGjP9W6KtK",
+        "name": "Youngblood",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2016-10-07",
         "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
+            "punk",
+            "pop punk"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273af71e889d130283bcd08b8a7",
         "audio_features": {
-            "popularity": 43,
-            "acousticness": 0.000702,
-            "danceability": 0.468,
-            "energy": 0.981,
-            "instrumentalness": 0.0,
-            "key": 11,
-            "liveness": 0.124,
-            "loudness": -3.295,
-            "mode": 1,
-            "speechiness": 0.0609,
-            "tempo": 186.341,
-            "valence": 0.683
-        }
-    },
-    {
-        "id": "0bORa4VpL8NzyMXEI6UFGK",
-        "name": "Long Road To Ruin",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2007-09-25",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
-        "audio_features": {
-            "popularity": 57,
-            "acousticness": 0.000633,
-            "danceability": 0.482,
-            "energy": 0.963,
-            "instrumentalness": 0.0,
-            "key": 11,
-            "liveness": 0.0959,
-            "loudness": -3.161,
-            "mode": 0,
-            "speechiness": 0.0743,
-            "tempo": 131.333,
-            "valence": 0.423
-        }
-    },
-    {
-        "id": "4P4s2KHOw0uISbLI3zkHtD",
-        "name": "Come Alive",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2007-09-25",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
-        "audio_features": {
-            "popularity": 50,
-            "acousticness": 0.000246,
-            "danceability": 0.615,
-            "energy": 0.763,
-            "instrumentalness": 0.141,
-            "key": 6,
-            "liveness": 0.298,
-            "loudness": -4.189,
-            "mode": 1,
-            "speechiness": 0.0322,
-            "tempo": 115.991,
-            "valence": 0.333
-        }
-    },
-    {
-        "id": "7zaZlzl0XhthNwH3GQcyZ0",
-        "name": "Stranger Things Have Happened",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2007-09-25",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
-        "audio_features": {
-            "popularity": 54,
-            "acousticness": 0.842,
-            "danceability": 0.34,
-            "energy": 0.331,
-            "instrumentalness": 0.833,
-            "key": 0,
-            "liveness": 0.112,
-            "loudness": -17.857,
-            "mode": 1,
-            "speechiness": 0.0325,
-            "tempo": 141.663,
-            "valence": 0.666
-        }
-    },
-    {
-        "id": "5w4s2ccJcpiNlajHVGtHDg",
-        "name": "Cheer Up, Boys (Your Make Up Is Running)",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2007-09-25",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
-        "audio_features": {
-            "popularity": 42,
-            "acousticness": 0.113,
-            "danceability": 0.646,
-            "energy": 0.833,
-            "instrumentalness": 0.000493,
-            "key": 11,
-            "liveness": 0.121,
-            "loudness": -5.131,
-            "mode": 1,
-            "speechiness": 0.0571,
-            "tempo": 108.004,
-            "valence": 0.271
-        }
-    },
-    {
-        "id": "0cA5yQFQAfKjf64QHbPqss",
-        "name": "Summer's End",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2007-09-25",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
-        "audio_features": {
-            "popularity": 42,
-            "acousticness": 0.0271,
-            "danceability": 0.557,
-            "energy": 0.924,
-            "instrumentalness": 3.32e-06,
+            "popularity": 0.45652173913043476,
+            "acousticness": 7.39531288542259e-06,
+            "danceability": 0.42093023255813955,
+            "energy": 0.9469414764485227,
+            "instrumentalness": 0.0017461928934010152,
             "key": 9,
-            "liveness": 0.537,
-            "loudness": -4.341,
-            "mode": 0,
-            "speechiness": 0.064,
-            "tempo": 151.988,
-            "valence": 0.566
+            "liveness": 0.07064315352697095,
+            "loudness": 0.8364546961520827,
+            "mode": 1,
+            "speechiness": 0.013773222293401664,
+            "tempo": 0.4172516618003355,
+            "valence": 0.867
         }
     },
     {
-        "id": "0CJuzA63oAQb8dJDY5IKhZ",
-        "name": "Ballad Of The Beaconsfield Miners",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2007-09-25",
+        "id": "3QWgLzCrAVkmw5eoHPN5uB",
+        "name": "Too Dumb to Die",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2016-10-07",
         "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
+            "punk",
+            "pop punk"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273af71e889d130283bcd08b8a7",
         "audio_features": {
-            "popularity": 38,
-            "acousticness": 0.000557,
-            "danceability": 0.561,
-            "energy": 0.964,
-            "instrumentalness": 1.46e-06,
+            "popularity": 0.4891304347826087,
+            "acousticness": 2.836572359505322e-05,
+            "danceability": 0.45,
+            "energy": 0.9919911662563807,
+            "instrumentalness": 0.00027411167512690355,
             "key": 4,
-            "liveness": 0.579,
-            "loudness": -2.993,
+            "liveness": 0.09024896265560166,
+            "loudness": 0.8165626212393751,
+            "mode": 1,
+            "speechiness": 0.04110612855007475,
+            "tempo": 0.2684723861589116,
+            "valence": 0.713
+        }
+    },
+    {
+        "id": "1bsQUnczB7JI4YnDzOjFMz",
+        "name": "Troubled Times",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2016-10-07",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273af71e889d130283bcd08b8a7",
+        "audio_features": {
+            "popularity": 0.4673913043478261,
+            "acousticness": 0.00033960216505752043,
+            "danceability": 0.472093023255814,
+            "energy": 0.9729701861152852,
+            "instrumentalness": 4.984771573604061e-05,
+            "key": 2,
+            "liveness": 0.19294605809128632,
+            "loudness": 0.8125771523295595,
+            "mode": 1,
+            "speechiness": 0.023062139654067903,
+            "tempo": 0.6579611107659813,
+            "valence": 0.946
+        }
+    },
+    {
+        "id": "35weSxL477aChs1wx7oZS5",
+        "name": "Ordinary World",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2016-10-07",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273af71e889d130283bcd08b8a7",
+        "audio_features": {
+            "popularity": 0.5,
+            "acousticness": 0.005841142938660569,
+            "danceability": 0.5034883720930233,
+            "energy": 0.9799779156409519,
+            "instrumentalness": 0.00043959390862944166,
+            "key": 11,
+            "liveness": 0.1462655601659751,
+            "loudness": 0.8311289810602053,
             "mode": 0,
-            "speechiness": 0.0719,
-            "tempo": 138.064,
+            "speechiness": 0.06833226564168268,
+            "tempo": 0.20980928123252782,
+            "valence": 0.55
+        }
+    },
+    {
+        "id": "6WlmA3HPHuNIR2mxI8LkZF",
+        "name": "Hitchin' a Ride",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.6630434782608695,
+            "acousticness": 2.4586350987862114e-05,
+            "danceability": 0.3813953488372093,
+            "energy": 0.969966873461428,
+            "instrumentalness": 0.0015228426395939086,
+            "key": 7,
+            "liveness": 0.1856846473029046,
+            "loudness": 0.8259443445138082,
+            "mode": 1,
+            "speechiness": 0.01580183642963912,
+            "tempo": 0.2924271603404362,
+            "valence": 0.963
+        }
+    },
+    {
+        "id": "3N5wUrnulGRc9LLSz0rQFb",
+        "name": "The Grouch",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.5869565217391305,
+            "acousticness": 4.494389046389419e-06,
+            "danceability": 0.36860465116279073,
+            "energy": 0.9909900620384284,
+            "instrumentalness": 0.014416243654822336,
+            "key": 2,
+            "liveness": 0.16804979253112035,
+            "loudness": 0.8262970408775085,
+            "mode": 1,
+            "speechiness": 0.03299167200512492,
+            "tempo": 0.27428713424861784,
+            "valence": 0.34
+        }
+    },
+    {
+        "id": "2iP4gsbex3yX32fC0kcwMV",
+        "name": "Scattered",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.5652173913043478,
+            "acousticness": 0.0005939437270009217,
+            "danceability": 0.34767441860465115,
+            "energy": 0.9839823325127616,
+            "instrumentalness": 8.213197969543147e-05,
+            "key": 1,
+            "liveness": 0.14730290456431538,
+            "loudness": 0.8132825450569604,
+            "mode": 0,
+            "speechiness": 0.017616912235746313,
+            "tempo": 0.6141889793129156,
+            "valence": 0.946
+        }
+    },
+    {
+        "id": "03eYWfN1F3iAcMdMnsjl3z",
+        "name": "All the Time",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.4673913043478261,
+            "acousticness": 0.0012752522483513177,
+            "danceability": 0.33488372093023255,
+            "energy": 0.9159072456919983,
+            "instrumentalness": 3.888324873096447e-05,
+            "key": 4,
+            "liveness": 0.014626556016597509,
+            "loudness": 0.776214157232039,
+            "mode": 1,
+            "speechiness": 0.024236600469784327,
+            "tempo": 0.5511958750077655,
+            "valence": 0.854
+        }
+    },
+    {
+        "id": "7gdTcngmshwbn8ASnouLsX",
+        "name": "Worry Rock",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.4782608695652174,
+            "acousticness": 0.18692416342591425,
+            "danceability": 0.4127906976744186,
+            "energy": 0.43237390842098833,
+            "instrumentalness": 0.0,
+            "key": 7,
+            "liveness": 0.14522821576763487,
+            "loudness": 0.6802807463055056,
+            "mode": 1,
+            "speechiness": 0.008327994875080078,
+            "tempo": 0.2850655401627633,
+            "valence": 0.648
+        }
+    },
+    {
+        "id": "6SFL3a2JotvZFwTiggc4cb",
+        "name": "Platypus (I Hate You)",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.5,
+            "acousticness": 0.0005040559460731332,
+            "danceability": 0.46279069767441866,
+            "energy": 0.9449392680126179,
+            "instrumentalness": 3.096446700507614e-05,
+            "key": 4,
+            "liveness": 0.42012448132780084,
+            "loudness": 0.7946249074172045,
+            "mode": 1,
+            "speechiness": 0.03480674781123212,
+            "tempo": 0.49870162142014046,
+            "valence": 0.678
+        }
+    },
+    {
+        "id": "1dohIM3mw8wUL3YoYtlpJY",
+        "name": "Uptight",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.4782608695652174,
+            "acousticness": 0.0010607473165918225,
+            "danceability": 0.4674418604651163,
+            "energy": 0.9639602481537135,
+            "instrumentalness": 0.0,
+            "key": 1,
+            "liveness": 0.13278008298755187,
+            "loudness": 0.8401932776073079,
+            "mode": 1,
+            "speechiness": 0.032457826179799275,
+            "tempo": 0.545424613281978,
+            "valence": 0.782
+        }
+    },
+    {
+        "id": "6DibYvbqhIHsLvZMZ8pV6c",
+        "name": "Jinx",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.45652173913043476,
+            "acousticness": 0.0009105938643601762,
+            "danceability": 0.5255813953488372,
+            "energy": 0.8838719107175215,
+            "instrumentalness": 0.0,
+            "key": 0,
+            "liveness": 0.08402489626556016,
+            "loudness": 0.8250273339681868,
+            "mode": 1,
+            "speechiness": 0.017937219730941704,
+            "tempo": 0.42987513201217625,
+            "valence": 0.469
+        }
+    },
+    {
+        "id": "6BtaJWMs4kui6uaYKT7Gno",
+        "name": "Haushinka",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.4673913043478261,
+            "acousticness": 0.00024256421973774896,
+            "danceability": 0.18255813953488376,
+            "energy": 0.9609569354998563,
+            "instrumentalness": 3.1573604060913705e-06,
+            "key": 2,
+            "liveness": 0.3547717842323651,
+            "loudness": 0.8343385179698798,
+            "mode": 1,
+            "speechiness": 0.05370489002775998,
+            "tempo": 0.4063738584829472,
+            "valence": 0.632
+        }
+    },
+    {
+        "id": "0lzwh15LNuwO5wtExoAqBa",
+        "name": "Reject",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.45652173913043476,
+            "acousticness": 0.001408041015631005,
+            "danceability": 0.39883720930232563,
+            "energy": 0.892881848679093,
+            "instrumentalness": 2.649746192893401e-06,
+            "key": 2,
+            "liveness": 0.14834024896265563,
+            "loudness": 0.7812224455965859,
+            "mode": 1,
+            "speechiness": 0.03267136450992953,
+            "tempo": 0.426700627446108,
+            "valence": 0.335
+        }
+    },
+    {
+        "id": "6C3nwiSeOjEPzw8P3Qz2ih",
+        "name": "Take Back",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.44565217391304346,
+            "acousticness": 0.00021907082244980425,
+            "danceability": 0.4034883720930233,
+            "energy": 0.9469414764485227,
+            "instrumentalness": 0.009401015228426395,
+            "key": 1,
+            "liveness": 0.4056016597510373,
+            "loudness": 0.8160335766938243,
+            "mode": 1,
+            "speechiness": 0.02754644458680333,
+            "tempo": 0.5042678760017394,
+            "valence": 0.789
+        }
+    },
+    {
+        "id": "6ORqU0bHbVCRjXm9AjyHyZ",
+        "name": "Good Riddance (Time of Your Life)",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.8586956521739131,
+            "acousticness": 0.0017144766324302836,
+            "danceability": 0.3372093023255814,
+            "energy": 0.994994478910238,
+            "instrumentalness": 0.00015939086294416242,
+            "key": 9,
+            "liveness": 0.29771784232365145,
+            "loudness": 0.8340210912425493,
+            "mode": 1,
+            "speechiness": 0.06310057655349136,
+            "tempo": 0.7519227185189787,
+            "valence": 0.597
+        }
+    },
+    {
+        "id": "76XpBAo45nP84Mq3hx3wVX",
+        "name": "Prosthetic Head",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1997-10-14",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+        "audio_features": {
+            "popularity": 0.4673913043478261,
+            "acousticness": 0.00031202295954558536,
+            "danceability": 0.5186046511627906,
+            "energy": 0.8638498263584734,
+            "instrumentalness": 0.0038172588832487307,
+            "key": 0,
+            "liveness": 0.262448132780083,
+            "loudness": 0.8364899657884528,
+            "mode": 1,
+            "speechiness": 0.008327994875080078,
+            "tempo": 0.39864571038081636,
+            "valence": 0.799
+        }
+    },
+    {
+        "id": "6nTiIhLmQ3FWhvrGafw2zj",
+        "name": "American Idiot",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2004-09-21",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b27308a1b1e0674086d3f1995e1b",
+        "audio_features": {
+            "popularity": 0.8804347826086957,
+            "acousticness": 6.513799761096665e-05,
+            "danceability": 0.2744186046511628,
+            "energy": 0.9889878536025236,
+            "instrumentalness": 0.0017360406091370558,
+            "key": 2,
+            "liveness": 0.3703319502074689,
+            "loudness": 0.8239692448770853,
+            "mode": 1,
+            "speechiness": 0.05199658338671791,
+            "tempo": 0.8154252345157486,
+            "valence": 0.562
+        }
+    },
+    {
+        "id": "58KPPL1AdLHMvR2O2PZejr",
+        "name": "Jesus of Suburbia",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2004-09-21",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b27308a1b1e0674086d3f1995e1b",
+        "audio_features": {
+            "popularity": 0.7282608695652174,
+            "acousticness": 0.0013263248511511973,
+            "danceability": 0.15465116279069768,
+            "energy": 0.8268089702942345,
+            "instrumentalness": 1.6243654822335024e-06,
+            "key": 2,
+            "liveness": 0.054460580912863064,
+            "loudness": 0.792790886325962,
+            "mode": 0,
+            "speechiness": 0.009075379030535981,
+            "tempo": 0.7175871280362802,
+            "valence": 0.424
+        }
+    },
+    {
+        "id": "0MsrWnxQZxPAcov7c74sSo",
+        "name": "Holiday / Boulevard of Broken Dreams",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2004-09-21",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b27308a1b1e0674086d3f1995e1b",
+        "audio_features": {
+            "popularity": 0.782608695652174,
+            "acousticness": 2.5403512632660195e-05,
+            "danceability": 0.3023255813953489,
+            "energy": 0.9889878536025236,
+            "instrumentalness": 7.979695431472081e-05,
+            "key": 1,
+            "liveness": 0.3599585062240664,
+            "loudness": 0.8849151765245301,
+            "mode": 1,
+            "speechiness": 0.04430920350202861,
+            "tempo": 0.8535441386593776,
+            "valence": 0.769
+        }
+    },
+    {
+        "id": "5MqV2o7iLd0lNREZ7SYL05",
+        "name": "Are We the Waiting / St. Jimmy",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2004-09-21",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b27308a1b1e0674086d3f1995e1b",
+        "audio_features": {
+            "popularity": 0.5760869565217391,
+            "acousticness": 0.008517347325374269,
+            "danceability": 0.30348837209302326,
+            "energy": 0.7327051738067087,
+            "instrumentalness": 0.010253807106598985,
+            "key": 10,
+            "liveness": 0.06680497925311203,
+            "loudness": 0.6890981553980178,
+            "mode": 0,
+            "speechiness": 0.03331197950032031,
+            "tempo": 0.5826303037833137,
+            "valence": 0.814
+        }
+    },
+    {
+        "id": "11I3KKHv7g2pXiuqRDabRA",
+        "name": "Give Me Novacaine / She's a Rebel",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2004-09-21",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b27308a1b1e0674086d3f1995e1b",
+        "audio_features": {
+            "popularity": 0.6413043478260869,
+            "acousticness": 0.0001669767675939269,
+            "danceability": 0.4418604651162791,
+            "energy": 0.9219138709997128,
+            "instrumentalness": 0.001197969543147208,
+            "key": 6,
+            "liveness": 0.07769709543568465,
+            "loudness": 0.7713822170493423,
+            "mode": 1,
+            "speechiness": 0.013986760623531921,
+            "tempo": 0.2618065478039387,
+            "valence": 0.891
+        }
+    },
+    {
+        "id": "3RBXNeUbe3X7ZBch00D2St",
+        "name": "Extraordinary Girl / Letterbomb",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2004-09-21",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b27308a1b1e0674086d3f1995e1b",
+        "audio_features": {
+            "popularity": 0.5543478260869565,
+            "acousticness": 0.011030119383128353,
+            "danceability": 0.2069767441860465,
+            "energy": 0.9639602481537135,
+            "instrumentalness": 0.0,
+            "key": 1,
+            "liveness": 0.1628630705394191,
+            "loudness": 0.8474235530631679,
+            "mode": 1,
+            "speechiness": 0.02658552210121717,
+            "tempo": 0.41141827669752135,
+            "valence": 0.407
+        }
+    },
+    {
+        "id": "3ZffCQKLFLUvYM59XKLbVm",
+        "name": "Wake Me up When September Ends",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2004-09-21",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b27308a1b1e0674086d3f1995e1b",
+        "audio_features": {
+            "popularity": 0.8804347826086957,
+            "acousticness": 0.0016327604679504761,
+            "danceability": 0.5116279069767442,
+            "energy": 0.9589547270639515,
+            "instrumentalness": 5.035532994923858e-05,
+            "key": 11,
+            "liveness": 0.04491701244813277,
+            "loudness": 0.8424858039713611,
+            "mode": 1,
+            "speechiness": 0.02007260303224429,
+            "tempo": 0.5048518357457913,
+            "valence": 0.961
+        }
+    },
+    {
+        "id": "6CVWD0WRqwbR4HsiKHk1j3",
+        "name": "Whatsername",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2004-09-21",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b27308a1b1e0674086d3f1995e1b",
+        "audio_features": {
+            "popularity": 0.6739130434782609,
+            "acousticness": 0.03115272488628098,
+            "danceability": 0.24069767441860468,
+            "energy": 0.8368200124737585,
+            "instrumentalness": 0.0,
+            "key": 1,
+            "liveness": 0.26141078838174275,
+            "loudness": 0.8112016365111275,
+            "mode": 1,
+            "speechiness": 0.017723681400811445,
+            "tempo": 0.5432627197614464,
+            "valence": 0.301
+        }
+    },
+    {
+        "id": "0RT1qESYHlNcUJI0Yo5Hzl",
+        "name": "21st Century Breakdown",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2009-05-15",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c2ced39899b0d67cd5a724fa",
+        "audio_features": {
+            "popularity": 0.5978260869565217,
+            "acousticness": 0.03789430845586511,
+            "danceability": 0.5069767441860465,
+            "energy": 0.48643353619041796,
+            "instrumentalness": 1.4720812182741118e-06,
+            "key": 2,
+            "liveness": 0.14834024896265563,
+            "loudness": 0.7051458399463902,
+            "mode": 1,
+            "speechiness": 0.011210762331838564,
+            "tempo": 0.44254830092563835,
+            "valence": 0.243
+        }
+    },
+    {
+        "id": "5qtwzv99vOr5UTwnTixn7j",
+        "name": "Know Your Enemy",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2009-05-15",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c2ced39899b0d67cd5a724fa",
+        "audio_features": {
+            "popularity": 0.7065217391304348,
+            "acousticness": 0.000731839754560597,
+            "danceability": 0.40232558139534885,
+            "energy": 0.8998895782047599,
+            "instrumentalness": 0.000449746192893401,
+            "key": 2,
+            "liveness": 0.4336099585062241,
+            "loudness": 0.810813670511057,
+            "mode": 1,
+            "speechiness": 0.03736920777279522,
+            "tempo": 0.5915947070882774,
+            "valence": 0.422
+        }
+    },
+    {
+        "id": "575urseJcD6iGioNWuQy3H",
+        "name": "¡Viva La Gloria!",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2009-05-15",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c2ced39899b0d67cd5a724fa",
+        "audio_features": {
+            "popularity": 0.5652173913043478,
+            "acousticness": 0.006801307871298308,
+            "danceability": 0.5127906976744186,
+            "energy": 0.9569525186280466,
+            "instrumentalness": 6.527918781725889e-06,
+            "key": 11,
+            "liveness": 0.3506224066390041,
+            "loudness": 0.8142700948753219,
+            "mode": 1,
+            "speechiness": 0.019859064702114033,
+            "tempo": 0.31530720009939744,
+            "valence": 0.796
+        }
+    },
+    {
+        "id": "0bziU9XgFkAcPrMhVYBM7n",
+        "name": "Before the Lobotomy",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2009-05-15",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c2ced39899b0d67cd5a724fa",
+        "audio_features": {
+            "popularity": 0.5,
+            "acousticness": 0.002521423756668384,
+            "danceability": 0.472093023255814,
+            "energy": 0.9239160794356175,
+            "instrumentalness": 0.000166497461928934,
+            "key": 11,
+            "liveness": 0.06804979253112033,
+            "loudness": 0.8127182308750396,
+            "mode": 1,
+            "speechiness": 0.006192611573777492,
+            "tempo": 0.45274895943343485,
+            "valence": 0.775
+        }
+    },
+    {
+        "id": "0buUlnWLraOX28CQLuR1dE",
+        "name": "Christian's Inferno",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2009-05-15",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c2ced39899b0d67cd5a724fa",
+        "audio_features": {
+            "popularity": 0.4782608695652174,
+            "acousticness": 0.025739028989493724,
+            "danceability": 0.46395348837209305,
+            "energy": 0.8458299504353302,
+            "instrumentalness": 2.446700507614213e-06,
+            "key": 5,
+            "liveness": 0.07385892116182573,
+            "loudness": 0.8012203294184037,
+            "mode": 0,
+            "speechiness": 0.0060858424087123645,
+            "tempo": 0.2872398583587004,
+            "valence": 0.532
+        }
+    },
+    {
+        "id": "5TpPSTItCwtZ8Sltr3vdzm",
+        "name": "Last Night on Earth",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2009-05-15",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c2ced39899b0d67cd5a724fa",
+        "audio_features": {
+            "popularity": 0.8260869565217391,
+            "acousticness": 6.564872363896545e-05,
+            "danceability": 0.3906976744186047,
+            "energy": 0.9939933746922855,
+            "instrumentalness": 0.0006101522842639594,
+            "key": 9,
+            "liveness": 0.2863070539419087,
+            "loudness": 0.869784502521779,
+            "mode": 1,
+            "speechiness": 0.03950459107409781,
+            "tempo": 0.5855004038019508,
+            "valence": 0.684
+        }
+    },
+    {
+        "id": "4nqZIPw2PNo1W54kEmswJ2",
+        "name": "Murder City",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2009-05-15",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c2ced39899b0d67cd5a724fa",
+        "audio_features": {
+            "popularity": 0.5108695652173914,
+            "acousticness": 0.00011590416479404714,
+            "danceability": 0.21511627906976744,
+            "energy": 0.9619580397178087,
+            "instrumentalness": 1.5126903553299493e-05,
+            "key": 1,
+            "liveness": 0.19605809128630705,
+            "loudness": 0.8120833774203788,
+            "mode": 1,
+            "speechiness": 0.029254751227845394,
+            "tempo": 0.5688575510964777,
+            "valence": 0.367
+        }
+    },
+    {
+        "id": "2mnk1GHN0XmznKiucY4ZW4",
+        "name": "¿Viva La Gloria? (Little Girl)",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2009-05-15",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c2ced39899b0d67cd5a724fa",
+        "audio_features": {
+            "popularity": 0.5869565217391305,
+            "acousticness": 0.00026299326085770083,
+            "danceability": 0.20930232558139533,
+            "energy": 0.9299227047433319,
+            "instrumentalness": 2.2944162436548223e-06,
+            "key": 1,
+            "liveness": 0.3195020746887967,
+            "loudness": 0.8435791626988326,
+            "mode": 1,
+            "speechiness": 0.04398889600683323,
+            "tempo": 0.6112816052680625,
+            "valence": 0.59
+        }
+    },
+    {
+        "id": "3Dl2gul5pJ5Ceh7ew5kvC9",
+        "name": "Horseshoes and Handgrenades",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2009-05-15",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c2ced39899b0d67cd5a724fa",
+        "audio_features": {
+            "popularity": 0.4891304347826087,
+            "acousticness": 0.00016186950731393894,
+            "danceability": 0.18139534883720934,
+            "energy": 0.9099006203842839,
+            "instrumentalness": 4.83248730964467e-06,
+            "key": 9,
+            "liveness": 0.075,
+            "loudness": 0.8277078263323104,
+            "mode": 1,
+            "speechiness": 0.042067051035660906,
+            "tempo": 0.5577374666086851,
+            "valence": 0.344
+        }
+    },
+    {
+        "id": "0c0ptxjRaqaxMM8gvSWCG0",
+        "name": "The Static Age",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2009-05-15",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c2ced39899b0d67cd5a724fa",
+        "audio_features": {
+            "popularity": 0.4782608695652174,
+            "acousticness": 0.0009075295081921833,
+            "danceability": 0.22906976744186047,
+            "energy": 0.9589547270639515,
+            "instrumentalness": 0.0001868020304568528,
+            "key": 9,
+            "liveness": 0.0850622406639004,
+            "loudness": 0.8140584770571017,
+            "mode": 1,
+            "speechiness": 0.08167841127482384,
+            "tempo": 0.5541591600919427,
+            "valence": 0.422
+        }
+    },
+    {
+        "id": "64yrDBpcdwEdNY9loyEGbX",
+        "name": "21 Guns",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2009-05-15",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c2ced39899b0d67cd5a724fa",
+        "audio_features": {
+            "popularity": 0.8260869565217391,
+            "acousticness": 0.0007359255627845874,
+            "danceability": 0.20465116279069767,
+            "energy": 0.9299227047433319,
+            "instrumentalness": 5.9187817258883255e-06,
+            "key": 9,
+            "liveness": 0.3402489626556016,
+            "loudness": 0.8487285296088597,
+            "mode": 1,
+            "speechiness": 0.05626734998932308,
+            "tempo": 0.4658694166614898,
             "valence": 0.411
         }
     },
     {
-        "id": "2OSFREMR9mE2kiByPL3g71",
-        "name": "Statues",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2007-09-25",
+        "id": "5bUXuNEIxQbX6sTiP43z5H",
+        "name": "See the Light",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "2009-05-15",
         "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
+            "punk",
+            "pop punk"
         ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
+        "cover": "https://i.scdn.co/image/ab67616d0000b273c2ced39899b0d67cd5a724fa",
         "audio_features": {
-            "popularity": 40,
-            "acousticness": 0.00132,
-            "danceability": 0.552,
-            "energy": 0.915,
-            "instrumentalness": 3.58e-05,
-            "key": 4,
-            "liveness": 0.206,
-            "loudness": -3.713,
-            "mode": 1,
-            "speechiness": 0.056,
-            "tempo": 90.013,
-            "valence": 0.602
-        }
-    },
-    {
-        "id": "4SMbJ6BAY9LdudY8v7HJpH",
-        "name": "But, Honestly",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2007-09-25",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
-        "audio_features": {
-            "popularity": 44,
-            "acousticness": 0.00368,
-            "danceability": 0.631,
-            "energy": 0.891,
-            "instrumentalness": 0.00124,
-            "key": 0,
-            "liveness": 0.157,
-            "loudness": -4.202,
-            "mode": 1,
-            "speechiness": 0.0999,
-            "tempo": 119.959,
-            "valence": 0.677
-        }
-    },
-    {
-        "id": "2fDVMNQmFuMORDD3dP7GkN",
-        "name": "Home",
-        "artist": "Foo Fighters",
-        "artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
-        "release_date": "2007-09-25",
-        "genres": [
-            "rock",
-            "post-grunge",
-            "alternative rock",
-            "grunge"
-        ],
-        "cover": "https://i.scdn.co/image/ab67616d0000b273e4b2a70d24770cbed32c6fe6",
-        "audio_features": {
-            "popularity": 50,
-            "acousticness": 0.0612,
-            "danceability": 0.512,
-            "energy": 0.95,
+            "popularity": 0.44565217391304346,
+            "acousticness": 0.001847265399709971,
+            "danceability": 0.38255813953488377,
+            "energy": 0.9389326427049035,
             "instrumentalness": 0.0,
-            "key": 4,
-            "liveness": 0.203,
-            "loudness": -3.833,
+            "key": 1,
+            "liveness": 0.34439834024896265,
+            "loudness": 0.7326208866786583,
+            "mode": 1,
+            "speechiness": 0.02466367713004484,
+            "tempo": 0.25456296204261664,
+            "valence": 0.825
+        }
+    },
+    {
+        "id": "1Cq8IdsiaMiieYuLN8iEm0",
+        "name": "Chump",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1994-02-01",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+        "audio_features": {
+            "popularity": 0.5760869565217391,
+            "acousticness": 0.023491834466299013,
+            "danceability": 0.4953488372093024,
+            "energy": 0.8147957196788057,
+            "instrumentalness": 0.0,
+            "key": 7,
+            "liveness": 0.07904564315352697,
+            "loudness": 0.7754382252318979,
+            "mode": 1,
+            "speechiness": 0.009609224855861624,
+            "tempo": 0.34951854382804254,
+            "valence": 0.146
+        }
+    },
+    {
+        "id": "3LRJbFT9rKoKv4aW7PuBJC",
+        "name": "Longview",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1994-02-01",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+        "audio_features": {
+            "popularity": 0.717391304347826,
+            "acousticness": 0.001888123481949875,
+            "danceability": 0.22325581395348837,
+            "energy": 0.9499447891023799,
+            "instrumentalness": 1.8071065989847715e-05,
+            "key": 9,
+            "liveness": 0.03724066390041494,
+            "loudness": 0.832328148696787,
+            "mode": 1,
+            "speechiness": 0.059790732436472344,
+            "tempo": 0.658986146486923,
+            "valence": 0.65
+        }
+    },
+    {
+        "id": "5kr3j5Clb9rjEposoMyLVt",
+        "name": "Welcome to Paradise",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1994-02-01",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+        "audio_features": {
+            "popularity": 0.75,
+            "acousticness": 0.0021639155370692257,
+            "danceability": 0.6313953488372094,
+            "energy": 0.72069192319128,
+            "instrumentalness": 0.0,
+            "key": 3,
+            "liveness": 0.3495850622406639,
+            "loudness": 0.7630585828660107,
+            "mode": 1,
+            "speechiness": 0.011424300661968822,
+            "tempo": 0.5381375411567374,
+            "valence": 0.608
+        }
+    },
+    {
+        "id": "5z2XqieaqxpCJc3ntZ6Ye3",
+        "name": "Pulling Teeth",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1994-02-01",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+        "audio_features": {
+            "popularity": 0.5869565217391305,
+            "acousticness": 0.1113367112820922,
+            "danceability": 0.4593023255813954,
+            "energy": 0.5665218736266101,
+            "instrumentalness": 0.0,
+            "key": 6,
+            "liveness": 0.14419087136929462,
+            "loudness": 0.7391104997707474,
+            "mode": 1,
+            "speechiness": 0.008434764040145207,
+            "tempo": 0.6560352860781513,
+            "valence": 0.165
+        }
+    },
+    {
+        "id": "6L89mwZXSOwYl76YXfX13s",
+        "name": "Basket Case",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1994-02-01",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+        "audio_features": {
+            "popularity": 0.8913043478260869,
+            "acousticness": 0.017873848158312243,
+            "danceability": 0.4779069767441861,
+            "energy": 0.9099006203842839,
+            "instrumentalness": 0.0,
+            "key": 11,
+            "liveness": 0.2178423236514523,
+            "loudness": 0.8075335943286425,
+            "mode": 1,
+            "speechiness": 0.01238522314755499,
+            "tempo": 0.3033360253463379,
+            "valence": 0.814
+        }
+    },
+    {
+        "id": "4wsQGsdf8D0Bj26cGdvreB",
+        "name": "She",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1994-02-01",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+        "audio_features": {
+            "popularity": 0.717391304347826,
+            "acousticness": 7.371819488134645e-05,
+            "danceability": 0.29069767441860467,
+            "energy": 0.9379315384869512,
+            "instrumentalness": 0.008294416243654823,
+            "key": 1,
+            "liveness": 0.07199170124481327,
+            "loudness": 0.8180086763305471,
             "mode": 0,
-            "speechiness": 0.184,
-            "tempo": 151.945,
-            "valence": 0.538
+            "speechiness": 0.014093529788597053,
+            "tempo": 0.27700192582468786,
+            "valence": 0.874
+        }
+    },
+    {
+        "id": "4oqF9y2thGJh7hFd1hqItt",
+        "name": "Sassafras Roots",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1994-02-01",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+        "audio_features": {
+            "popularity": 0.5652173913043478,
+            "acousticness": 3.633304963183446e-05,
+            "danceability": 0.4325581395348837,
+            "energy": 0.9709679776793804,
+            "instrumentalness": 0.0,
+            "key": 2,
+            "liveness": 0.13900414937759337,
+            "loudness": 0.8201953937854901,
+            "mode": 1,
+            "speechiness": 0.04185351270553064,
+            "tempo": 0.43171398397216876,
+            "valence": 0.487
+        }
+    },
+    {
+        "id": "1gPwAnimmoEt2y3LXa9ysx",
+        "name": "Emenius Sleepus",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1994-02-01",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+        "audio_features": {
+            "popularity": 0.5434782608695652,
+            "acousticness": 0.002071984852029442,
+            "danceability": 0.4441860465116279,
+            "energy": 0.934928225833094,
+            "instrumentalness": 0.001035532994923858,
+            "key": 7,
+            "liveness": 0.22095435684647305,
+            "loudness": 0.7754734948682679,
+            "mode": 1,
+            "speechiness": 0.02946828955797566,
+            "tempo": 0.5353792632167486,
+            "valence": 0.67
+        }
+    },
+    {
+        "id": "4GSyhhe5HHAytp7KlmWlZX",
+        "name": "In the End",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1994-02-01",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+        "audio_features": {
+            "popularity": 0.5652173913043478,
+            "acousticness": 5.134839485499911e-05,
+            "danceability": 0.35,
+            "energy": 0.9389326427049035,
+            "instrumentalness": 0.0029543147208121825,
+            "key": 11,
+            "liveness": 0.10684647302904564,
+            "loudness": 0.8083800656015236,
+            "mode": 0,
+            "speechiness": 0.0318172111894085,
+            "tempo": 0.6714046095545756,
+            "valence": 0.427
+        }
+    },
+    {
+        "id": "409hGnupGUeqjzpv4Ycs3g",
+        "name": "F.O.D.",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1994-02-01",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+        "audio_features": {
+            "popularity": 0.5434782608695652,
+            "acousticness": 1.712975097907967e-05,
+            "danceability": 0.40116279069767447,
+            "energy": 0.919911662563808,
+            "instrumentalness": 2.1015228426395937e-05,
+            "key": 4,
+            "liveness": 0.25000000000000006,
+            "loudness": 0.8149754876027228,
+            "mode": 1,
+            "speechiness": 0.019645526371983774,
+            "tempo": 0.5422066223519912,
+            "valence": 0.537
+        }
+    },
+    {
+        "id": "0fatcDJuNxjxA9tuBsQkrm",
+        "name": "All by Myself",
+        "artist": "Green Day",
+        "artist_id": "7oPftvlwr6VrsViSDV7fJY",
+        "release_date": "1994-02-01",
+        "genres": [
+            "punk",
+            "pop punk"
+        ],
+        "cover": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+        "audio_features": {
+            "popularity": 0.5108695652173914,
+            "acousticness": 0.0017859782763501152,
+            "danceability": 0.4918604651162791,
+            "energy": 0.9589547270639515,
+            "instrumentalness": 0.002903553299492386,
+            "key": 2,
+            "liveness": 0.2510373443983403,
+            "loudness": 0.8082742566924135,
+            "mode": 1,
+            "speechiness": 0.04922058509502456,
+            "tempo": 0.39219730384543705,
+            "valence": 0.532
         }
     }
 ]
