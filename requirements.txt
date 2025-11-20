@@ -2,3 +2,6 @@ spotipy
 typer
 rich
 pandas
+python-dotenv
+requests
+natsort
